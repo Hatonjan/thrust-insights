@@ -1,0 +1,37 @@
+{
+  "project_metadata": {
+    "name": "Thrust Insights Analytics",
+    "version": "1.0.0",
+    "last_updated": "March 2026"
+  },
+  "summary_stats": {
+    "total_launches": 312,
+    "overall_success_rate": "98.4%",
+    "boosters_recovered": 264,
+    "total_payload_mass_kg": 1450000
+  },
+  "market_comparison": [
+    {
+      "provider": "SpaceX Falcon 9",
+      "cost_per_kg": 2720,
+      "reusability": true
+    },
+    {
+      "provider": "Traditional Expendable",
+      "cost_per_kg": 18500,
+      "reusability": false
+    }
+  ],
+  "milestones": [
+    {
+      "year": 2015,
+      "event": "First successful orbital booster landing",
+      "impact": "Proof of concept for reusability"
+    },
+    {
+      "year": 2023,
+      "event": "Record 96 launches in a single year",
+      "impact": "Demonstration of launch cadence"
+    }
+  ]
+}
