@@ -50,7 +50,7 @@ export function Navigation() {
           {/* CTA Button */}
           <button
             onClick={() => scrollToSection("insights")}
-            className="hidden md:block px-6 py-2 bg-[#FF5C00] text-[#F8FAFC] rounded-lg hover:bg-[#FF5C00]/90 transition-colors"
+            className="hidden md:block px-6 py-2 bg-transparent border-2 border-[#00A3FF] text-[#F8FAFC] rounded-lg hover:bg-[#00A3FF]/90 transition-colors"
           >
             View Insights
           </button>

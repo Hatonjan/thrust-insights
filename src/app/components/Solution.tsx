@@ -5,16 +5,13 @@ export function Solution() {
     <section id="solution" className="py-24 bg-gradient-to-b from-[#0B0E14] to-[#1A1F2B]">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <div className="inline-block px-4 py-2 bg-[#1A1F2B] border border-[#00A3FF]/30 rounded-full mb-6">
-            <span className="text-[#00A3FF] text-sm font-semibold">YOUR ANALYSIS</span>
-          </div>
           
           <h2 className="text-4xl md:text-5xl font-bold text-[#F8FAFC] mb-6">
             The Solution
           </h2>
           
           <p className="text-lg text-[#94A3B8] max-w-3xl mx-auto leading-relaxed">
-            Introducing <span className="text-[#FF5C00] font-semibold">Thrust Insights</span>. Using Python-driven statistical modeling and interactive Plotly visualizations, this project strips away the complexity. I've synthesized spaceflight economics data into a compelling narrative that highlights how reusability is transforming the industry.
+            Introducing <span className="text-[#00A3FF] font-semibold">Thrust Insights</span>. Using Python-driven statistical modeling and interactive Plotly visualizations, this project strips away the complexity. I've synthesized spaceflight economics data into a compelling narrative that highlights how reusability is transforming the industry.
           </p>
         </div>
 

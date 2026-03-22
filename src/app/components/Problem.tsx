@@ -9,7 +9,7 @@ export function Problem() {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-[#FF5C00]/20 to-[#00A3FF]/20 blur-3xl"></div>
             <img
-              src="https://images.unsplash.com/photo-1657344956545-8f49e1b1f661?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFjZSUyMG1pc3Npb24lMjBjb250cm9sJTIwZGF0YXxlbnwxfHx8fDE3NzQxMjE4NzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              src="../src/assets/img/problem.png"
               alt="Data Analysis"
               className="relative rounded-lg shadow-2xl border border-[#94A3B8]/20"
             />
@@ -17,23 +17,19 @@ export function Problem() {
 
           {/* Right: Content */}
           <div>
-            <div className="inline-block px-4 py-2 bg-[#1A1F2B] border border-[#FF5C00]/30 rounded-full mb-6">
-              <span className="text-[#FF5C00] text-sm font-semibold">THE DATA GAP</span>
-            </div>
-            
             <h2 className="text-4xl md:text-5xl font-bold text-[#F8FAFC] mb-6">
               The Problem
             </h2>
             
-            <p className="text-lg text-[#94A3B8] mb-8 leading-relaxed">
-              Space is no longer a government monopoly; it is a data-driven frontier. However, raw launch telemetry is often fragmented and opaque. Investors and stakeholders lack a unified lens to see the true correlation between booster reusability, payload mass, and mission success.
+            <p className="text-lg text-[#94A3B8] mb-12 leading-relaxed">
+              As the world’s first orbital-class reusable rocket, the Falcon 9 allows SpaceX to recover and launch flight-proven hardware, significantly reducing the cost of space access. However, raw launch telemetry remains fragmented and opaque. Investors and stakeholders lack a unified lens to visualize the critical correlations between booster reusability, payload mass, and mission success.
             </p>
 
             {/* Key Points */}
             <div className="space-y-4">
               <div className="flex items-start gap-4 p-4 bg-[#1A1F2B]/50 border border-[#94A3B8]/10 rounded-lg">
                 <div className="p-2 bg-[#FF5C00]/10 rounded-lg">
-                  <Database className="w-5 h-5 text-[#FF5C00]" />
+                  <Database className="w-5 h-5 text-[#FF5C00CC]" />
                 </div>
                 <div>
                   <h4 className="text-[#F8FAFC] mb-1">Fragmented Data Sources</h4>

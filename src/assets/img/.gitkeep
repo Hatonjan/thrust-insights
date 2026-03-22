@@ -1,0 +1,9 @@
+# Image assets directory
+# Store component images here (PNG, JPG, SVG, WebP, etc.)
+# 
+# Example structure:
+# img/
+# ├── hero/
+# ├── insights/
+# ├── backgrounds/
+# └── icons/
