@@ -10,9 +10,6 @@ export function About() {
       {/* Hero Section */}
       <section className="pt-32 pb-16 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-block px-4 py-2 bg-[#1A1F2B] border border-[#FF5C00]/30 rounded-full mb-6">
-            <span className="text-[#FF5C00] text-sm font-semibold">ABOUT THE PROJECT</span>
-          </div>
           <h1 className="text-5xl md:text-6xl font-bold text-[#F8FAFC] mb-6">
             About Thrust Insights
           </h1>
@@ -42,15 +39,15 @@ export function About() {
               <img
                 src="https://images.unsplash.com/photo-1720214661177-2c975f7824b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFjZXglMjBmYWxjb24lMjByb2NrZXQlMjBsYXVuY2h8ZW58MXx8fHwxNzc0MTIxODY5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                 alt="Falcon-9 Rocket"
-                className="rounded-lg shadow-2xl border border-[#94A3B8]/20"
+                className="rounded-sm shadow-2xl border border-[#94A3B8]/20"
               />
             </div>
           </div>
 
           {/* Values Grid */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-            <div className="bg-[#1A1F2B] border border-[#94A3B8]/20 rounded-lg p-6 text-center">
-              <div className="inline-flex p-3 bg-[#FF5C00]/10 rounded-lg mb-4">
+            <div className="bg-[#1A1F2B] border border-[#94A3B8]/20 rounded-sm p-6 text-center">
+              <div className="inline-flex p-3 bg-[#FF5C00]/10 rounded-sm mb-4">
                 <Target className="w-6 h-6 text-[#FF5C00]" />
               </div>
               <h3 className="text-[#F8FAFC] font-semibold mb-2">Data-Driven</h3>
@@ -59,8 +56,8 @@ export function About() {
               </p>
             </div>
 
-            <div className="bg-[#1A1F2B] border border-[#94A3B8]/20 rounded-lg p-6 text-center">
-              <div className="inline-flex p-3 bg-[#00A3FF]/10 rounded-lg mb-4">
+            <div className="bg-[#1A1F2B] border border-[#94A3B8]/20 rounded-sm p-6 text-center">
+              <div className="inline-flex p-3 bg-[#00A3FF]/10 rounded-sm mb-4">
                 <Lightbulb className="w-6 h-6 text-[#00A3FF]" />
               </div>
               <h3 className="text-[#F8FAFC] font-semibold mb-2">Insightful</h3>
@@ -69,8 +66,8 @@ export function About() {
               </p>
             </div>
 
-            <div className="bg-[#1A1F2B] border border-[#94A3B8]/20 rounded-lg p-6 text-center">
-              <div className="inline-flex p-3 bg-[#10B981]/10 rounded-lg mb-4">
+            <div className="bg-[#1A1F2B] border border-[#94A3B8]/20 rounded-sm p-6 text-center">
+              <div className="inline-flex p-3 bg-[#10B981]/10 rounded-sm mb-4">
                 <Users className="w-6 h-6 text-[#10B981]" />
               </div>
               <h3 className="text-[#F8FAFC] font-semibold mb-2">Accessible</h3>
@@ -79,8 +76,8 @@ export function About() {
               </p>
             </div>
 
-            <div className="bg-[#1A1F2B] border border-[#94A3B8]/20 rounded-lg p-6 text-center">
-              <div className="inline-flex p-3 bg-[#FF5C00]/10 rounded-lg mb-4">
+            <div className="bg-[#1A1F2B] border border-[#94A3B8]/20 rounded-sm p-6 text-center">
+              <div className="inline-flex p-3 bg-[#FF5C00]/10 rounded-sm mb-4">
                 <Rocket className="w-6 h-6 text-[#FF5C00]" />
               </div>
               <h3 className="text-[#F8FAFC] font-semibold mb-2">Forward-Thinking</h3>
@@ -98,28 +95,28 @@ export function About() {
           <h2 className="text-3xl font-bold text-[#F8FAFC] mb-8 text-center">Methodology</h2>
           
           <div className="space-y-6">
-            <div className="bg-[#1A1F2B] border border-[#94A3B8]/20 rounded-lg p-6">
+            <div className="bg-[#1A1F2B] border border-[#94A3B8]/20 rounded-sm p-6">
               <h3 className="text-xl font-semibold text-[#F8FAFC] mb-3">Data Collection</h3>
               <p className="text-[#94A3B8]">
                 Aggregated launch data from public SpaceX APIs, NASA databases, and verified third-party sources spanning 2010-2026.
               </p>
             </div>
 
-            <div className="bg-[#1A1F2B] border border-[#94A3B8]/20 rounded-lg p-6">
+            <div className="bg-[#1A1F2B] border border-[#94A3B8]/20 rounded-sm p-6">
               <h3 className="text-xl font-semibold text-[#F8FAFC] mb-3">Statistical Modeling</h3>
               <p className="text-[#94A3B8]">
                 Applied Python-based analytics using pandas for data manipulation, NumPy for numerical processing, and scikit-learn for predictive modeling.
               </p>
             </div>
 
-            <div className="bg-[#1A1F2B] border border-[#94A3B8]/20 rounded-lg p-6">
+            <div className="bg-[#1A1F2B] border border-[#94A3B8]/20 rounded-sm p-6">
               <h3 className="text-xl font-semibold text-[#F8FAFC] mb-3">Visualization Framework</h3>
               <p className="text-[#94A3B8]">
                 Created interactive dashboards using Plotly to reveal trends in cost-per-kilogram, success rates, and booster recovery efficiency over time.
               </p>
             </div>
 
-            <div className="bg-[#1A1F2B] border border-[#94A3B8]/20 rounded-lg p-6">
+            <div className="bg-[#1A1F2B] border border-[#94A3B8]/20 rounded-sm p-6">
               <h3 className="text-xl font-semibold text-[#F8FAFC] mb-3">Validation</h3>
               <p className="text-[#94A3B8]">
                 Cross-referenced findings with industry reports, academic papers, and official SpaceX disclosures to ensure accuracy and reliability.
@@ -140,7 +137,7 @@ export function About() {
           </p>
           <a
             href="/"
-            className="inline-block px-8 py-4 bg-[#FF5C00] text-[#F8FAFC] rounded-lg hover:bg-[#FF5C00]/90 transition-all transform hover:scale-105"
+            className="inline-block px-8 py-4 bg-[#FF5C00] text-[#F8FAFC] rounded-sm hover:bg-[#FF5C00]/90 transition-all transform hover:scale-105"
           >
             View Key Insights
           </a>

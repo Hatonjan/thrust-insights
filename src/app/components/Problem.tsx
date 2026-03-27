@@ -9,9 +9,9 @@ export function Problem() {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-[#FF5C00]/20 to-[#00A3FF]/20 blur-3xl"></div>
             <img
-              src="../src/assets/img/problem.png"
+              src="/src/assets/img/problem.png"
               alt="Data Analysis"
-              className="relative rounded-lg shadow-2xl border border-[#94A3B8]/20"
+              className="relative rounded-sm shadow-2xl border border-[#94A3B8]/20"
             />
           </div>
 
@@ -22,13 +22,13 @@ export function Problem() {
             </h2>
             
             <p className="text-lg text-[#94A3B8] mb-12 leading-relaxed">
-              As the world’s first orbital-class reusable rocket, the Falcon 9 allows SpaceX to recover and launch flight-proven hardware, significantly reducing the cost of space access. However, raw launch telemetry remains fragmented and opaque. Investors and stakeholders lack a unified lens to visualize the critical correlations between booster reusability, payload mass, and mission success.
+              As the world’s first orbital-class reusable rocket, the Falcon 9 allows SpaceX to recover and refly the most expensive rocket components, significantly reducing the cost of space access. However, raw launch telemetry remains fragmented and opaque. Investors and stakeholders lack a unified lens to visualize critical correlations between booster reusability, payload mass, and mission success.
             </p>
 
             {/* Key Points */}
             <div className="space-y-4">
-              <div className="flex items-start gap-4 p-4 bg-[#1A1F2B]/50 border border-[#94A3B8]/10 rounded-lg">
-                <div className="p-2 bg-[#FF5C00]/10 rounded-lg">
+              <div className="flex items-start gap-4 p-4 bg-[#1A1F2B]/50 border border-[#94A3B8]/10 rounded-sm">
+                <div className="p-2 bg-[#FF5C00]/10 rounded-sm">
                   <Database className="w-5 h-5 text-[#FF5C00CC]" />
                 </div>
                 <div>
@@ -37,8 +37,8 @@ export function Problem() {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4 p-4 bg-[#1A1F2B]/50 border border-[#94A3B8]/10 rounded-lg">
-                <div className="p-2 bg-[#00A3FF]/10 rounded-lg">
+              <div className="flex items-start gap-4 p-4 bg-[#1A1F2B]/50 border border-[#94A3B8]/10 rounded-sm">
+                <div className="p-2 bg-[#00A3FF]/10 rounded-sm">
                   <AlertCircle className="w-5 h-5 text-[#00A3FF]" />
                 </div>
                 <div>
@@ -47,8 +47,8 @@ export function Problem() {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4 p-4 bg-[#1A1F2B]/50 border border-[#94A3B8]/10 rounded-lg">
-                <div className="p-2 bg-[#10B981]/10 rounded-lg">
+              <div className="flex items-start gap-4 p-4 bg-[#1A1F2B]/50 border border-[#94A3B8]/10 rounded-sm">
+                <div className="p-2 bg-[#10B981]/10 rounded-sm">
                   <TrendingUp className="w-5 h-5 text-[#10B981]" />
                 </div>
                 <div>

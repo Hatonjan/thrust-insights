@@ -1,0 +1,4752 @@
+[
+  {
+    "flightNumber":1,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":8191,
+    "orbit":"LEO",
+    "outcome":"None None",
+    "boosterVersion":"Falcon 9",
+    "date":"2010-06-04",
+    "Class":1
+  },
+  {
+    "flightNumber":2,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":525,
+    "orbit":"LEO",
+    "outcome":"None None",
+    "boosterVersion":"Falcon 9",
+    "date":"2012-05-22",
+    "Class":1
+  },
+  {
+    "flightNumber":3,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":677,
+    "orbit":"ISS",
+    "outcome":"None None",
+    "boosterVersion":"Falcon 9",
+    "date":"2013-03-01",
+    "Class":1
+  },
+  {
+    "flightNumber":4,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":500,
+    "orbit":"PO",
+    "outcome":"False Ocean",
+    "boosterVersion":"Falcon 9",
+    "date":"2013-09-29",
+    "Class":0
+  },
+  {
+    "flightNumber":5,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":3170,
+    "orbit":"GTO",
+    "outcome":"None None",
+    "boosterVersion":"Falcon 9",
+    "date":"2013-12-03",
+    "Class":1
+  },
+  {
+    "flightNumber":6,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":3325,
+    "orbit":"GTO",
+    "outcome":"None None",
+    "boosterVersion":"Falcon 9",
+    "date":"2014-01-06",
+    "Class":1
+  },
+  {
+    "flightNumber":7,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":2296,
+    "orbit":"ISS",
+    "outcome":"True Ocean",
+    "boosterVersion":"Falcon 9",
+    "date":"2014-04-18",
+    "Class":1
+  },
+  {
+    "flightNumber":8,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":1316,
+    "orbit":"LEO",
+    "outcome":"True Ocean",
+    "boosterVersion":"Falcon 9",
+    "date":"2014-07-14",
+    "Class":1
+  },
+  {
+    "flightNumber":9,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":4535,
+    "orbit":"GTO",
+    "outcome":"None None",
+    "boosterVersion":"Falcon 9",
+    "date":"2014-08-05",
+    "Class":1
+  },
+  {
+    "flightNumber":10,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":4428,
+    "orbit":"GTO",
+    "outcome":"None None",
+    "boosterVersion":"Falcon 9",
+    "date":"2014-09-07",
+    "Class":1
+  },
+  {
+    "flightNumber":11,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":2216,
+    "orbit":"ISS",
+    "outcome":"False Ocean",
+    "boosterVersion":"Falcon 9",
+    "date":"2014-09-21",
+    "Class":0
+  },
+  {
+    "flightNumber":12,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":2395,
+    "orbit":"ISS",
+    "outcome":"False ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2015-01-10",
+    "Class":0
+  },
+  {
+    "flightNumber":13,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":570,
+    "orbit":"ES-L1",
+    "outcome":"True Ocean",
+    "boosterVersion":"Falcon 9",
+    "date":"2015-02-11",
+    "Class":1
+  },
+  {
+    "flightNumber":14,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":1898,
+    "orbit":"ISS",
+    "outcome":"False ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2015-04-14",
+    "Class":0
+  },
+  {
+    "flightNumber":15,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":4707,
+    "orbit":"GTO",
+    "outcome":"None None",
+    "boosterVersion":"Falcon 9",
+    "date":"2015-04-27",
+    "Class":1
+  },
+  {
+    "flightNumber":16,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":2477,
+    "orbit":"ISS",
+    "outcome":"None ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2015-06-28",
+    "Class":0
+  },
+  {
+    "flightNumber":17,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":2034,
+    "orbit":"LEO",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2015-12-22",
+    "Class":0
+  },
+  {
+    "flightNumber":18,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":553,
+    "orbit":"PO",
+    "outcome":"False ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2016-01-17",
+    "Class":0
+  },
+  {
+    "flightNumber":19,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":5271,
+    "orbit":"GTO",
+    "outcome":"False ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2016-03-04",
+    "Class":0
+  },
+  {
+    "flightNumber":20,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":3136,
+    "orbit":"ISS",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2016-04-08",
+    "Class":1
+  },
+  {
+    "flightNumber":21,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":4696,
+    "orbit":"GTO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2016-05-06",
+    "Class":1
+  },
+  {
+    "flightNumber":22,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":3100,
+    "orbit":"GTO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2016-05-27",
+    "Class":1
+  },
+  {
+    "flightNumber":23,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":2257,
+    "orbit":"ISS",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2016-07-18",
+    "Class":0
+  },
+  {
+    "flightNumber":24,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":4600,
+    "orbit":"GTO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2016-08-14",
+    "Class":1
+  },
+  {
+    "flightNumber":25,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":5500,
+    "orbit":"GTO",
+    "outcome":"None ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2016-09-01",
+    "Class":0
+  },
+  {
+    "flightNumber":26,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":9600,
+    "orbit":"PO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2017-01-14",
+    "Class":1
+  },
+  {
+    "flightNumber":27,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":2490,
+    "orbit":"ISS",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2017-02-19",
+    "Class":0
+  },
+  {
+    "flightNumber":28,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":5600,
+    "orbit":"GTO",
+    "outcome":"None None",
+    "boosterVersion":"Falcon 9",
+    "date":"2017-03-16",
+    "Class":1
+  },
+  {
+    "flightNumber":29,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":5300,
+    "orbit":"GTO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2017-03-30",
+    "Class":1
+  },
+  {
+    "flightNumber":30,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":8191,
+    "orbit":"LEO",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2017-05-01",
+    "Class":0
+  },
+  {
+    "flightNumber":31,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":6070,
+    "orbit":"GTO",
+    "outcome":"None None",
+    "boosterVersion":"Falcon 9",
+    "date":"2017-05-15",
+    "Class":1
+  },
+  {
+    "flightNumber":32,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":2708,
+    "orbit":"ISS",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2017-06-03",
+    "Class":0
+  },
+  {
+    "flightNumber":33,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":3669,
+    "orbit":"GTO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2017-06-23",
+    "Class":1
+  },
+  {
+    "flightNumber":34,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":9600,
+    "orbit":"PO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2017-06-25",
+    "Class":1
+  },
+  {
+    "flightNumber":35,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":6761,
+    "orbit":"GTO",
+    "outcome":"None None",
+    "boosterVersion":"Falcon 9",
+    "date":"2017-07-05",
+    "Class":1
+  },
+  {
+    "flightNumber":36,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":2910,
+    "orbit":"ISS",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2017-08-14",
+    "Class":0
+  },
+  {
+    "flightNumber":37,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":475,
+    "orbit":"SSO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2017-08-24",
+    "Class":1
+  },
+  {
+    "flightNumber":38,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":4990,
+    "orbit":"LEO",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2017-09-07",
+    "Class":0
+  },
+  {
+    "flightNumber":39,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":9600,
+    "orbit":"PO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2017-10-09",
+    "Class":1
+  },
+  {
+    "flightNumber":40,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":5200,
+    "orbit":"GTO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2017-10-11",
+    "Class":1
+  },
+  {
+    "flightNumber":41,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":3700,
+    "orbit":"GTO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2017-10-30",
+    "Class":1
+  },
+  {
+    "flightNumber":42,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":2205,
+    "orbit":"ISS",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2017-12-15",
+    "Class":0
+  },
+  {
+    "flightNumber":43,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":9600,
+    "orbit":"PO",
+    "outcome":"True Ocean",
+    "boosterVersion":"Falcon 9",
+    "date":"2017-12-23",
+    "Class":1
+  },
+  {
+    "flightNumber":44,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":8191,
+    "orbit":"LEO",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2018-01-08",
+    "Class":0
+  },
+  {
+    "flightNumber":45,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":4230,
+    "orbit":"GTO",
+    "outcome":"True Ocean",
+    "boosterVersion":"Falcon 9",
+    "date":"2018-01-31",
+    "Class":1
+  },
+  {
+    "flightNumber":46,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":6092,
+    "orbit":"GTO",
+    "outcome":"None None",
+    "boosterVersion":"Falcon 9",
+    "date":"2018-03-06",
+    "Class":1
+  },
+  {
+    "flightNumber":47,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":9600,
+    "orbit":"PO",
+    "outcome":"None None",
+    "boosterVersion":"Falcon 9",
+    "date":"2018-03-30",
+    "Class":1
+  },
+  {
+    "flightNumber":48,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":2760,
+    "orbit":"ISS",
+    "outcome":"None None",
+    "boosterVersion":"Falcon 9",
+    "date":"2018-04-02",
+    "Class":1
+  },
+  {
+    "flightNumber":49,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":350,
+    "orbit":"HEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2018-04-18",
+    "Class":1
+  },
+  {
+    "flightNumber":50,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":3750,
+    "orbit":"GTO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2018-05-11",
+    "Class":1
+  },
+  {
+    "flightNumber":51,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":5383,
+    "orbit":"GTO",
+    "outcome":"None None",
+    "boosterVersion":"Falcon 9",
+    "date":"2018-06-04",
+    "Class":1
+  },
+  {
+    "flightNumber":52,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":2410,
+    "orbit":"ISS",
+    "outcome":"None None",
+    "boosterVersion":"Falcon 9",
+    "date":"2018-06-29",
+    "Class":1
+  },
+  {
+    "flightNumber":53,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":7076,
+    "orbit":"GTO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2018-07-22",
+    "Class":1
+  },
+  {
+    "flightNumber":54,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":9600,
+    "orbit":"PO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2018-07-25",
+    "Class":1
+  },
+  {
+    "flightNumber":55,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":5800,
+    "orbit":"GTO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2018-08-07",
+    "Class":1
+  },
+  {
+    "flightNumber":56,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":7060,
+    "orbit":"GTO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2018-09-10",
+    "Class":1
+  },
+  {
+    "flightNumber":57,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":2800,
+    "orbit":"SSO",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2018-10-08",
+    "Class":0
+  },
+  {
+    "flightNumber":58,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":3000,
+    "orbit":"GTO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2018-11-15",
+    "Class":1
+  },
+  {
+    "flightNumber":59,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":4000,
+    "orbit":"SSO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2018-12-03",
+    "Class":1
+  },
+  {
+    "flightNumber":60,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":2573,
+    "orbit":"ISS",
+    "outcome":"False RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2018-12-05",
+    "Class":0
+  },
+  {
+    "flightNumber":61,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":4400,
+    "orbit":"MEO",
+    "outcome":"None None",
+    "boosterVersion":"Falcon 9",
+    "date":"2018-12-23",
+    "Class":1
+  },
+  {
+    "flightNumber":62,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":9600,
+    "orbit":"PO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2019-01-11",
+    "Class":1
+  },
+  {
+    "flightNumber":63,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":12259,
+    "orbit":"ISS",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2019-03-02",
+    "Class":1
+  },
+  {
+    "flightNumber":64,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":2482,
+    "orbit":"ISS",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2019-05-04",
+    "Class":1
+  },
+  {
+    "flightNumber":65,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":13200,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2019-05-24",
+    "Class":1
+  },
+  {
+    "flightNumber":66,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":1425,
+    "orbit":"SSO",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2019-06-12",
+    "Class":0
+  },
+  {
+    "flightNumber":67,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":2227,
+    "orbit":"ISS",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2019-07-25",
+    "Class":0
+  },
+  {
+    "flightNumber":68,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":6500,
+    "orbit":"GTO",
+    "outcome":"None None",
+    "boosterVersion":"Falcon 9",
+    "date":"2019-08-06",
+    "Class":1
+  },
+  {
+    "flightNumber":69,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2019-11-11",
+    "Class":1
+  },
+  {
+    "flightNumber":70,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":5000,
+    "orbit":"ISS",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2019-12-05",
+    "Class":1
+  },
+  {
+    "flightNumber":71,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":6800,
+    "orbit":"GTO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2019-12-17",
+    "Class":1
+  },
+  {
+    "flightNumber":72,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-01-07",
+    "Class":1
+  },
+  {
+    "flightNumber":73,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":8191,
+    "orbit":"SO",
+    "outcome":"None None",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-01-19",
+    "Class":1
+  },
+  {
+    "flightNumber":74,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-01-29",
+    "Class":1
+  },
+  {
+    "flightNumber":75,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"False ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-02-17",
+    "Class":0
+  },
+  {
+    "flightNumber":76,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":1977,
+    "orbit":"ISS",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-03-07",
+    "Class":0
+  },
+  {
+    "flightNumber":77,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"False ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-03-18",
+    "Class":0
+  },
+  {
+    "flightNumber":78,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-04-22",
+    "Class":1
+  },
+  {
+    "flightNumber":79,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":9525,
+    "orbit":"ISS",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-05-30",
+    "Class":1
+  },
+  {
+    "flightNumber":80,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-06-04",
+    "Class":1
+  },
+  {
+    "flightNumber":81,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-06-13",
+    "Class":1
+  },
+  {
+    "flightNumber":82,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":3880,
+    "orbit":"MEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-06-30",
+    "Class":1
+  },
+  {
+    "flightNumber":83,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":8191,
+    "orbit":"GEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-07-20",
+    "Class":1
+  },
+  {
+    "flightNumber":84,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-08-18",
+    "Class":1
+  },
+  {
+    "flightNumber":85,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":1600,
+    "orbit":"SSO",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-08-30",
+    "Class":0
+  },
+  {
+    "flightNumber":86,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-09-03",
+    "Class":1
+  },
+  {
+    "flightNumber":87,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-10-06",
+    "Class":1
+  },
+  {
+    "flightNumber":88,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-10-18",
+    "Class":1
+  },
+  {
+    "flightNumber":89,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-10-24",
+    "Class":1
+  },
+  {
+    "flightNumber":90,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":3681,
+    "orbit":"MEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-11-05",
+    "Class":1
+  },
+  {
+    "flightNumber":91,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":8191,
+    "orbit":"ISS",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-11-16",
+    "Class":1
+  },
+  {
+    "flightNumber":92,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":1440,
+    "orbit":"PO",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-11-21",
+    "Class":0
+  },
+  {
+    "flightNumber":93,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-11-25",
+    "Class":1
+  },
+  {
+    "flightNumber":94,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":2972,
+    "orbit":"ISS",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-12-06",
+    "Class":1
+  },
+  {
+    "flightNumber":95,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":7000,
+    "orbit":"GTO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2020-12-13",
+    "Class":1
+  },
+  {
+    "flightNumber":97,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":3500,
+    "orbit":"GTO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-01-08",
+    "Class":1
+  },
+  {
+    "flightNumber":98,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-01-20",
+    "Class":1
+  },
+  {
+    "flightNumber":99,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":8191,
+    "orbit":"SSO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-01-24",
+    "Class":1
+  },
+  {
+    "flightNumber":100,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-02-04",
+    "Class":1
+  },
+  {
+    "flightNumber":101,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"False ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-02-16",
+    "Class":0
+  },
+  {
+    "flightNumber":102,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-03-04",
+    "Class":1
+  },
+  {
+    "flightNumber":103,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-03-11",
+    "Class":1
+  },
+  {
+    "flightNumber":104,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-03-14",
+    "Class":1
+  },
+  {
+    "flightNumber":105,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-03-24",
+    "Class":1
+  },
+  {
+    "flightNumber":106,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-04-07",
+    "Class":1
+  },
+  {
+    "flightNumber":107,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":8191,
+    "orbit":"ISS",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-04-23",
+    "Class":1
+  },
+  {
+    "flightNumber":108,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-04-29",
+    "Class":1
+  },
+  {
+    "flightNumber":109,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-05-04",
+    "Class":1
+  },
+  {
+    "flightNumber":110,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-05-09",
+    "Class":1
+  },
+  {
+    "flightNumber":111,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":15600,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-05-26",
+    "Class":1
+  },
+  {
+    "flightNumber":112,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":3328,
+    "orbit":"ISS",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-06-03",
+    "Class":1
+  },
+  {
+    "flightNumber":113,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":7000,
+    "orbit":"GTO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-06-06",
+    "Class":1
+  },
+  {
+    "flightNumber":114,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":3681,
+    "orbit":"MEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-06-17",
+    "Class":1
+  },
+  {
+    "flightNumber":115,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":8191,
+    "orbit":"SSO",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-06-30",
+    "Class":0
+  },
+  {
+    "flightNumber":116,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":8191,
+    "orbit":"ISS",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-08-29",
+    "Class":1
+  },
+  {
+    "flightNumber":117,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":15600,
+    "orbit":"PO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-09-14",
+    "Class":1
+  },
+  {
+    "flightNumber":118,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":8191,
+    "orbit":"LEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-09-16",
+    "Class":1
+  },
+  {
+    "flightNumber":119,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":12519,
+    "orbit":"ISS",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-11-11",
+    "Class":1
+  },
+  {
+    "flightNumber":120,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":13260,
+    "orbit":"LEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-11-13",
+    "Class":1
+  },
+  {
+    "flightNumber":121,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":670,
+    "orbit":"TLI",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-11-24",
+    "Class":1
+  },
+  {
+    "flightNumber":122,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":13260,
+    "orbit":"PO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-12-01",
+    "Class":1
+  },
+  {
+    "flightNumber":123,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":330,
+    "orbit":"LEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-12-09",
+    "Class":1
+  },
+  {
+    "flightNumber":124,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":13260,
+    "orbit":"PO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-12-18",
+    "Class":1
+  },
+  {
+    "flightNumber":125,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":3500,
+    "orbit":"GTO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-12-19",
+    "Class":1
+  },
+  {
+    "flightNumber":126,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":8191,
+    "orbit":"ISS",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2021-12-21",
+    "Class":1
+  },
+  {
+    "flightNumber":127,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-01-06",
+    "Class":1
+  },
+  {
+    "flightNumber":128,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":8191,
+    "orbit":"LEO",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-01-13",
+    "Class":0
+  },
+  {
+    "flightNumber":129,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-01-19",
+    "Class":1
+  },
+  {
+    "flightNumber":130,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":2240,
+    "orbit":"SSO",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-01-31",
+    "Class":0
+  },
+  {
+    "flightNumber":131,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":8191,
+    "orbit":"LEO",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-02-02",
+    "Class":0
+  },
+  {
+    "flightNumber":132,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-02-03",
+    "Class":1
+  },
+  {
+    "flightNumber":133,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-02-21",
+    "Class":1
+  },
+  {
+    "flightNumber":134,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-02-25",
+    "Class":1
+  },
+  {
+    "flightNumber":135,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-03-03",
+    "Class":1
+  },
+  {
+    "flightNumber":136,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-03-09",
+    "Class":1
+  },
+  {
+    "flightNumber":137,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-03-19",
+    "Class":1
+  },
+  {
+    "flightNumber":138,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":8191,
+    "orbit":"SSO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-04-01",
+    "Class":1
+  },
+  {
+    "flightNumber":139,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":8191,
+    "orbit":"ISS",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-04-08",
+    "Class":1
+  },
+  {
+    "flightNumber":140,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":8191,
+    "orbit":"LEO",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-04-17",
+    "Class":0
+  },
+  {
+    "flightNumber":141,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-04-21",
+    "Class":1
+  },
+  {
+    "flightNumber":142,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":8191,
+    "orbit":"ISS",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-04-27",
+    "Class":1
+  },
+  {
+    "flightNumber":143,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-04-29",
+    "Class":1
+  },
+  {
+    "flightNumber":144,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-05-06",
+    "Class":1
+  },
+  {
+    "flightNumber":145,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-05-13",
+    "Class":1
+  },
+  {
+    "flightNumber":146,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-05-14",
+    "Class":1
+  },
+  {
+    "flightNumber":147,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-05-18",
+    "Class":1
+  },
+  {
+    "flightNumber":148,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":8191,
+    "orbit":"SSO",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-05-25",
+    "Class":0
+  },
+  {
+    "flightNumber":149,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":3938,
+    "orbit":"GEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-06-08",
+    "Class":1
+  },
+  {
+    "flightNumber":150,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-06-01",
+    "Class":1
+  },
+  {
+    "flightNumber":151,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":2200,
+    "orbit":"SSO",
+    "outcome":"True RTLS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-06-18",
+    "Class":0
+  },
+  {
+    "flightNumber":152,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":700,
+    "orbit":"LEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-06-19",
+    "Class":1
+  },
+  {
+    "flightNumber":153,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":3500,
+    "orbit":"MEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-06-29",
+    "Class":1
+  },
+  {
+    "flightNumber":154,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-07-07",
+    "Class":1
+  },
+  {
+    "flightNumber":155,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-07-11",
+    "Class":1
+  },
+  {
+    "flightNumber":156,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":8191,
+    "orbit":"ISS",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-07-15",
+    "Class":1
+  },
+  {
+    "flightNumber":157,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-07-17",
+    "Class":1
+  },
+  {
+    "flightNumber":158,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-07-21",
+    "Class":1
+  },
+  {
+    "flightNumber":159,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-07-24",
+    "Class":1
+  },
+  {
+    "flightNumber":160,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":678,
+    "orbit":"TLI",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-08-04",
+    "Class":1
+  },
+  {
+    "flightNumber":161,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-08-09",
+    "Class":1
+  },
+  {
+    "flightNumber":162,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-08-12",
+    "Class":1
+  },
+  {
+    "flightNumber":163,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-08-19",
+    "Class":1
+  },
+  {
+    "flightNumber":164,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-08-28",
+    "Class":1
+  },
+  {
+    "flightNumber":165,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-08-31",
+    "Class":1
+  },
+  {
+    "flightNumber":166,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-09-17",
+    "Class":1
+  },
+  {
+    "flightNumber":167,
+    "launchSite":"CCSFS SLC-40",
+    "payloadMass":13260,
+    "orbit":"VLEO",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-09-24",
+    "Class":1
+  },
+  {
+    "flightNumber":168,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":8191,
+    "orbit":"ISS",
+    "outcome":"True ASDS",
+    "boosterVersion":"Falcon 9",
+    "date":"2022-10-05",
+    "Class":1
+  },
+  {
+    "flightNumber":286,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16800,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-01-03",
+    "Class":1
+  },
+  {
+    "flightNumber":287,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":1800,
+    "orbit":"GTO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-01-03",
+    "Class":1
+  },
+  {
+    "flightNumber":288,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-01-07",
+    "Class":1
+  },
+  {
+    "flightNumber":289,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16700,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-01-14",
+    "Class":1
+  },
+  {
+    "flightNumber":290,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-01-15",
+    "Class":1
+  },
+  {
+    "flightNumber":291,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":13000,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-01-18",
+    "Class":1
+  },
+  {
+    "flightNumber":292,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16700,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-01-24",
+    "Class":1
+  },
+  {
+    "flightNumber":293,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-01-29",
+    "Class":1
+  },
+  {
+    "flightNumber":294,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16700,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-01-29",
+    "Class":1
+  },
+  {
+    "flightNumber":295,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":3726,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-01-30",
+    "Class":1
+  },
+  {
+    "flightNumber":296,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":1694,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-02-08",
+    "Class":1
+  },
+  {
+    "flightNumber":297,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16700,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-02-10",
+    "Class":1
+  },
+  {
+    "flightNumber":299,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":1931,
+    "orbit":"TLI",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-02-15",
+    "Class":1
+  },
+  {
+    "flightNumber":300,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16700,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-02-15",
+    "Class":1
+  },
+  {
+    "flightNumber":301,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":4000,
+    "orbit":"GTO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-02-20",
+    "Class":1
+  },
+  {
+    "flightNumber":302,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16700,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-02-23",
+    "Class":1
+  },
+  {
+    "flightNumber":303,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-02-25",
+    "Class":1
+  },
+  {
+    "flightNumber":304,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-02-29",
+    "Class":1
+  },
+  {
+    "flightNumber":305,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":13000,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-03-04",
+    "Class":1
+  },
+  {
+    "flightNumber":307,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-03-04",
+    "Class":1
+  },
+  {
+    "flightNumber":308,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-03-10",
+    "Class":1
+  },
+  {
+    "flightNumber":309,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-03-11",
+    "Class":1
+  },
+  {
+    "flightNumber":310,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-03-16",
+    "Class":1
+  },
+  {
+    "flightNumber":311,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16300,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-03-19",
+    "Class":1
+  },
+  {
+    "flightNumber":312,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":2721,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-03-21",
+    "Class":1
+  },
+  {
+    "flightNumber":313,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-03-24",
+    "Class":1
+  },
+  {
+    "flightNumber":314,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-03-25",
+    "Class":1
+  },
+  {
+    "flightNumber":315,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":5000,
+    "orbit":"GTO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-03-30",
+    "Class":1
+  },
+  {
+    "flightNumber":316,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-03-31",
+    "Class":1
+  },
+  {
+    "flightNumber":317,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16700,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-04-02",
+    "Class":1
+  },
+  {
+    "flightNumber":318,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-04-05",
+    "Class":1
+  },
+  {
+    "flightNumber":319,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16800,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-04-07",
+    "Class":1
+  },
+  {
+    "flightNumber":321,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-04-10",
+    "Class":1
+  },
+  {
+    "flightNumber":322,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":1200,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-04-11",
+    "Class":1
+  },
+  {
+    "flightNumber":323,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-04-13",
+    "Class":1
+  },
+  {
+    "flightNumber":324,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-04-17",
+    "Class":1
+  },
+  {
+    "flightNumber":325,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-04-18",
+    "Class":1
+  },
+  {
+    "flightNumber":326,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-04-23",
+    "Class":1
+  },
+  {
+    "flightNumber":327,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":1600,
+    "orbit":"MEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-04-28",
+    "Class":1
+  },
+  {
+    "flightNumber":328,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-04-28",
+    "Class":1
+  },
+  {
+    "flightNumber":329,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":1500,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-05-02",
+    "Class":1
+  },
+  {
+    "flightNumber":330,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-05-03",
+    "Class":1
+  },
+  {
+    "flightNumber":331,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-05-06",
+    "Class":1
+  },
+  {
+    "flightNumber":332,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-05-08",
+    "Class":1
+  },
+  {
+    "flightNumber":333,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16300,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-05-10",
+    "Class":1
+  },
+  {
+    "flightNumber":334,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-05-13",
+    "Class":1
+  },
+  {
+    "flightNumber":335,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16300,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-05-14",
+    "Class":1
+  },
+  {
+    "flightNumber":336,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-05-18",
+    "Class":1
+  },
+  {
+    "flightNumber":338,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-05-23",
+    "Class":1
+  },
+  {
+    "flightNumber":339,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-05-24",
+    "Class":1
+  },
+  {
+    "flightNumber":340,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-05-28",
+    "Class":1
+  },
+  {
+    "flightNumber":341,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":2350,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-05-28",
+    "Class":1
+  },
+  {
+    "flightNumber":342,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-06-01",
+    "Class":1
+  },
+  {
+    "flightNumber":343,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16300,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-06-05",
+    "Class":1
+  },
+  {
+    "flightNumber":344,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16700,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-06-08",
+    "Class":1
+  },
+  {
+    "flightNumber":345,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16300,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-06-08",
+    "Class":1
+  },
+  {
+    "flightNumber":346,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16300,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-06-19",
+    "Class":1
+  },
+  {
+    "flightNumber":347,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":5000,
+    "orbit":"GTO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-06-20",
+    "Class":1
+  },
+  {
+    "flightNumber":348,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16700,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-06-23",
+    "Class":1
+  },
+  {
+    "flightNumber":349,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16300,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-06-24",
+    "Class":1
+  },
+  {
+    "flightNumber":350,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-06-27",
+    "Class":1
+  },
+  {
+    "flightNumber":352,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16300,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-07-03",
+    "Class":1
+  },
+  {
+    "flightNumber":353,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":4250,
+    "orbit":"GTO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-07-08",
+    "Class":1
+  },
+  {
+    "flightNumber":354,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16300,
+    "orbit":"LEO",
+    "outcome":"Failure",
+    "boosterVersion":"F9B5",
+    "date":"2024-07-12",
+    "Class":0
+  },
+  {
+    "flightNumber":355,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-07-27",
+    "Class":1
+  },
+  {
+    "flightNumber":356,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-07-28",
+    "Class":1
+  },
+  {
+    "flightNumber":357,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-07-28",
+    "Class":1
+  },
+  {
+    "flightNumber":358,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-08-02",
+    "Class":1
+  },
+  {
+    "flightNumber":359,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-08-04",
+    "Class":1
+  },
+  {
+    "flightNumber":360,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":3857,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-08-04",
+    "Class":1
+  },
+  {
+    "flightNumber":361,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-08-10",
+    "Class":1
+  },
+  {
+    "flightNumber":362,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":7230,
+    "orbit":"MO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-08-12",
+    "Class":1
+  },
+  {
+    "flightNumber":363,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-08-12",
+    "Class":1
+  },
+  {
+    "flightNumber":364,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":1500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-08-15",
+    "Class":1
+  },
+  {
+    "flightNumber":366,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16700,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-08-20",
+    "Class":1
+  },
+  {
+    "flightNumber":367,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16700,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-08-28",
+    "Class":1
+  },
+  {
+    "flightNumber":368,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16700,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-08-31",
+    "Class":1
+  },
+  {
+    "flightNumber":369,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16700,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-08-31",
+    "Class":1
+  },
+  {
+    "flightNumber":370,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16700,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-09-05",
+    "Class":1
+  },
+  {
+    "flightNumber":372,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":13000,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-09-10",
+    "Class":1
+  },
+  {
+    "flightNumber":373,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":7500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-09-12",
+    "Class":1
+  },
+  {
+    "flightNumber":374,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16700,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-09-13",
+    "Class":1
+  },
+  {
+    "flightNumber":375,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":1600,
+    "orbit":"MEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-09-17",
+    "Class":1
+  },
+  {
+    "flightNumber":376,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16300,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-09-20",
+    "Class":1
+  },
+  {
+    "flightNumber":377,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16300,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-09-25",
+    "Class":1
+  },
+  {
+    "flightNumber":378,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":13000,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-09-28",
+    "Class":1
+  },
+  {
+    "flightNumber":379,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":1108,
+    "orbit":"HCO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-10-07",
+    "Class":1
+  },
+  {
+    "flightNumber":380,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-10-15",
+    "Class":1
+  },
+  {
+    "flightNumber":381,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16300,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-10-15",
+    "Class":1
+  },
+  {
+    "flightNumber":382,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16300,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-10-18",
+    "Class":1
+  },
+  {
+    "flightNumber":383,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":2954,
+    "orbit":"PO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-10-20",
+    "Class":1
+  },
+  {
+    "flightNumber":384,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-10-23",
+    "Class":1
+  },
+  {
+    "flightNumber":386,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16700,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-10-26",
+    "Class":1
+  },
+  {
+    "flightNumber":387,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16300,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-10-30",
+    "Class":1
+  },
+  {
+    "flightNumber":388,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-10-30",
+    "Class":1
+  },
+  {
+    "flightNumber":389,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":2762,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-11-05",
+    "Class":1
+  },
+  {
+    "flightNumber":390,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-11-07",
+    "Class":1
+  },
+  {
+    "flightNumber":391,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16300,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-11-09",
+    "Class":1
+  },
+  {
+    "flightNumber":392,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":3500,
+    "orbit":"GTO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-11-11",
+    "Class":1
+  },
+  {
+    "flightNumber":393,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-11-11",
+    "Class":1
+  },
+  {
+    "flightNumber":394,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16300,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-11-14",
+    "Class":1
+  },
+  {
+    "flightNumber":395,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-11-14",
+    "Class":1
+  },
+  {
+    "flightNumber":396,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":4000,
+    "orbit":"GTO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-11-17",
+    "Class":1
+  },
+  {
+    "flightNumber":397,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16300,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-11-18",
+    "Class":1
+  },
+  {
+    "flightNumber":398,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":4700,
+    "orbit":"GTO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-11-18",
+    "Class":1
+  },
+  {
+    "flightNumber":399,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-11-21",
+    "Class":1
+  },
+  {
+    "flightNumber":400,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16300,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-11-24",
+    "Class":1
+  },
+  {
+    "flightNumber":401,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-11-25",
+    "Class":1
+  },
+  {
+    "flightNumber":402,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":17500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-11-27",
+    "Class":1
+  },
+  {
+    "flightNumber":403,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-11-30",
+    "Class":1
+  },
+  {
+    "flightNumber":404,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-11-30",
+    "Class":1
+  },
+  {
+    "flightNumber":405,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-12-04",
+    "Class":1
+  },
+  {
+    "flightNumber":406,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16300,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-12-05",
+    "Class":1
+  },
+  {
+    "flightNumber":407,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":7000,
+    "orbit":"GTO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-12-05",
+    "Class":1
+  },
+  {
+    "flightNumber":408,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-12-08",
+    "Class":1
+  },
+  {
+    "flightNumber":409,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16700,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-12-13",
+    "Class":1
+  },
+  {
+    "flightNumber":410,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":4350,
+    "orbit":"MEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-12-17",
+    "Class":1
+  },
+  {
+    "flightNumber":412,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":3400,
+    "orbit":"MEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-12-17",
+    "Class":1
+  },
+  {
+    "flightNumber":413,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":800,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-12-21",
+    "Class":1
+  },
+  {
+    "flightNumber":414,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":16500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-12-23",
+    "Class":1
+  },
+  {
+    "flightNumber":415,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16700,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-12-29",
+    "Class":1
+  },
+  {
+    "flightNumber":416,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":1600,
+    "orbit":"GTO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-12-29",
+    "Class":1
+  },
+  {
+    "flightNumber":417,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":16500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2024-12-31",
+    "Class":1
+  },
+  {
+    "flightNumber":418,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":5000,
+    "orbit":"GTO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-01-04",
+    "Class":1
+  },
+  {
+    "flightNumber":419,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-01-06",
+    "Class":1
+  },
+  {
+    "flightNumber":420,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":16500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-01-08",
+    "Class":1
+  },
+  {
+    "flightNumber":422,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-01-10",
+    "Class":1
+  },
+  {
+    "flightNumber":423,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-01-13",
+    "Class":1
+  },
+  {
+    "flightNumber":424,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":2000,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-01-14",
+    "Class":1
+  },
+  {
+    "flightNumber":425,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":2517,
+    "orbit":"TLI",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-01-15",
+    "Class":1
+  },
+  {
+    "flightNumber":426,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":15300,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-01-21",
+    "Class":1
+  },
+  {
+    "flightNumber":427,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":15500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-01-21",
+    "Class":1
+  },
+  {
+    "flightNumber":428,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-01-24",
+    "Class":1
+  },
+  {
+    "flightNumber":429,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-01-27",
+    "Class":1
+  },
+  {
+    "flightNumber":430,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":6100,
+    "orbit":"GTO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-01-30",
+    "Class":1
+  },
+  {
+    "flightNumber":431,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16700,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-02-01",
+    "Class":1
+  },
+  {
+    "flightNumber":432,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-02-04",
+    "Class":1
+  },
+  {
+    "flightNumber":433,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":1500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-02-04",
+    "Class":1
+  },
+  {
+    "flightNumber":434,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-02-08",
+    "Class":1
+  },
+  {
+    "flightNumber":435,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-02-11",
+    "Class":1
+  },
+  {
+    "flightNumber":436,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-02-11",
+    "Class":1
+  },
+  {
+    "flightNumber":437,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-02-15",
+    "Class":1
+  },
+  {
+    "flightNumber":438,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-02-18",
+    "Class":1
+  },
+  {
+    "flightNumber":439,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-02-21",
+    "Class":1
+  },
+  {
+    "flightNumber":440,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16800,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-02-23",
+    "Class":1
+  },
+  {
+    "flightNumber":442,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5[",
+    "date":"2025-02-27",
+    "Class":1
+  },
+  {
+    "flightNumber":443,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-03-03",
+    "Class":1
+  },
+  {
+    "flightNumber":444,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":758,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-03-12",
+    "Class":1
+  },
+  {
+    "flightNumber":445,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-03-13",
+    "Class":1
+  },
+  {
+    "flightNumber":446,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":13000,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-03-14",
+    "Class":1
+  },
+  {
+    "flightNumber":448,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-03-15",
+    "Class":1
+  },
+  {
+    "flightNumber":449,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-03-18",
+    "Class":1
+  },
+  {
+    "flightNumber":452,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":15500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-03-26",
+    "Class":1
+  },
+  {
+    "flightNumber":453,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-03-31",
+    "Class":1
+  },
+  {
+    "flightNumber":454,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":13000,
+    "orbit":"PO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-04-01",
+    "Class":1
+  },
+  {
+    "flightNumber":455,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":15500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-04-04",
+    "Class":1
+  },
+  {
+    "flightNumber":456,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-04-06",
+    "Class":1
+  },
+  {
+    "flightNumber":457,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":15500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-04-07",
+    "Class":1
+  },
+  {
+    "flightNumber":459,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":16500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-04-13",
+    "Class":1
+  },
+  {
+    "flightNumber":460,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":15500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-04-14",
+    "Class":1
+  },
+  {
+    "flightNumber":462,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":3021,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-04-21",
+    "Class":1
+  },
+  {
+    "flightNumber":464,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-04-25",
+    "Class":1
+  },
+  {
+    "flightNumber":465,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-04-28",
+    "Class":1
+  },
+  {
+    "flightNumber":466,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":15500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-04-28",
+    "Class":1
+  },
+  {
+    "flightNumber":467,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-04-29",
+    "Class":1
+  },
+  {
+    "flightNumber":468,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-05-02",
+    "Class":1
+  },
+  {
+    "flightNumber":469,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-05-04",
+    "Class":1
+  },
+  {
+    "flightNumber":470,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-05-07",
+    "Class":1
+  },
+  {
+    "flightNumber":471,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":14950,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-05-10",
+    "Class":1
+  },
+  {
+    "flightNumber":472,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-05-10",
+    "Class":1
+  },
+  {
+    "flightNumber":473,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":14950,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-05-13",
+    "Class":1
+  },
+  {
+    "flightNumber":474,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-05-13",
+    "Class":1
+  },
+  {
+    "flightNumber":475,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-05-14",
+    "Class":1
+  },
+  {
+    "flightNumber":476,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":14950,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-05-16",
+    "Class":1
+  },
+  {
+    "flightNumber":477,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-05-21",
+    "Class":1
+  },
+  {
+    "flightNumber":478,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":15500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-05-23",
+    "Class":1
+  },
+  {
+    "flightNumber":479,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-05-24",
+    "Class":1
+  },
+  {
+    "flightNumber":480,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":17500,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-05-27",
+    "Class":1
+  },
+  {
+    "flightNumber":481,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":15500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-05-28",
+    "Class":1
+  },
+  {
+    "flightNumber":482,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":4350,
+    "orbit":"MEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-05-30",
+    "Class":1
+  },
+  {
+    "flightNumber":483,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":15500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-05-31",
+    "Class":1
+  },
+  {
+    "flightNumber":484,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-06-03",
+    "Class":1
+  },
+  {
+    "flightNumber":485,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":15500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-06-04",
+    "Class":1
+  },
+  {
+    "flightNumber":486,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":6400,
+    "orbit":"GTO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-06-07",
+    "Class":1
+  },
+  {
+    "flightNumber":487,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":14950,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-06-08",
+    "Class":1
+  },
+  {
+    "flightNumber":488,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-06-10",
+    "Class":1
+  },
+  {
+    "flightNumber":489,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":14950,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-06-13",
+    "Class":1
+  },
+  {
+    "flightNumber":490,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":17100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-06-13",
+    "Class":1
+  },
+  {
+    "flightNumber":491,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":14950,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-06-17",
+    "Class":1
+  },
+  {
+    "flightNumber":492,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-06-18",
+    "Class":1
+  },
+  {
+    "flightNumber":493,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":15500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-06-23",
+    "Class":1
+  },
+  {
+    "flightNumber":495,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":13000,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-06-25",
+    "Class":1
+  },
+  {
+    "flightNumber":496,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":15500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-06-25",
+    "Class":1
+  },
+  {
+    "flightNumber":497,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":15500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-06-28",
+    "Class":1
+  },
+  {
+    "flightNumber":498,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":14950,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-06-28",
+    "Class":1
+  },
+  {
+    "flightNumber":499,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":3800,
+    "orbit":"GTO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-07-01",
+    "Class":1
+  },
+  {
+    "flightNumber":500,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":15500,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-07-02",
+    "Class":1
+  },
+  {
+    "flightNumber":501,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-07-08",
+    "Class":1
+  },
+  {
+    "flightNumber":502,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":4000,
+    "orbit":"GTO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-07-13",
+    "Class":1
+  },
+  {
+    "flightNumber":503,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":14950,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-07-16",
+    "Class":1
+  },
+  {
+    "flightNumber":504,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":14784,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-07-16",
+    "Class":1
+  },
+  {
+    "flightNumber":505,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":17500,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-07-19",
+    "Class":1
+  },
+  {
+    "flightNumber":506,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":3400,
+    "orbit":"MEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-07-22",
+    "Class":1
+  },
+  {
+    "flightNumber":507,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":920,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-07-23",
+    "Class":1
+  },
+  {
+    "flightNumber":508,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-07-26",
+    "Class":1
+  },
+  {
+    "flightNumber":509,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":17500,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-07-27",
+    "Class":1
+  },
+  {
+    "flightNumber":510,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-07-30",
+    "Class":1
+  },
+  {
+    "flightNumber":511,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":14060,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-07-31",
+    "Class":1
+  },
+  {
+    "flightNumber":512,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":13000,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-08-01",
+    "Class":1
+  },
+  {
+    "flightNumber":513,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-08-04",
+    "Class":1
+  },
+  {
+    "flightNumber":514,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":14784,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-08-11",
+    "Class":1
+  },
+  {
+    "flightNumber":515,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":17500,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-08-14",
+    "Class":1
+  },
+  {
+    "flightNumber":516,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-08-14",
+    "Class":1
+  },
+  {
+    "flightNumber":517,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":17500,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-08-18",
+    "Class":1
+  },
+  {
+    "flightNumber":518,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":4990,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5[",
+    "date":"2025-08-22",
+    "Class":1
+  },
+  {
+    "flightNumber":519,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":17500,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-08-22",
+    "Class":1
+  },
+  {
+    "flightNumber":520,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":2300,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-08-24",
+    "Class":1
+  },
+  {
+    "flightNumber":521,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":1370,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-08-26",
+    "Class":1
+  },
+  {
+    "flightNumber":522,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-08-27",
+    "Class":1
+  },
+  {
+    "flightNumber":523,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-08-28",
+    "Class":1
+  },
+  {
+    "flightNumber":524,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":17500,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-08-30",
+    "Class":1
+  },
+  {
+    "flightNumber":525,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-08-31",
+    "Class":1
+  },
+  {
+    "flightNumber":526,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":17500,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-09-03",
+    "Class":1
+  },
+  {
+    "flightNumber":527,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-09-03",
+    "Class":1
+  },
+  {
+    "flightNumber":528,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-09-05",
+    "Class":1
+  },
+  {
+    "flightNumber":529,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":17500,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-09-06",
+    "Class":1
+  },
+  {
+    "flightNumber":531,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":7800,
+    "orbit":"GTO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-09-12",
+    "Class":1
+  },
+  {
+    "flightNumber":532,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":17500,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-09-13",
+    "Class":1
+  },
+  {
+    "flightNumber":533,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":5000,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-09-14",
+    "Class":1
+  },
+  {
+    "flightNumber":534,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-09-18",
+    "Class":1
+  },
+  {
+    "flightNumber":535,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":17500,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-09-19",
+    "Class":1
+  },
+  {
+    "flightNumber":536,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-09-21",
+    "Class":1
+  },
+  {
+    "flightNumber":539,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-09-25",
+    "Class":1
+  },
+  {
+    "flightNumber":540,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":17500,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-09-26",
+    "Class":1
+  },
+  {
+    "flightNumber":541,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-09-29",
+    "Class":1
+  },
+  {
+    "flightNumber":542,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-10-03",
+    "Class":1
+  },
+  {
+    "flightNumber":543,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-10-07",
+    "Class":1
+  },
+  {
+    "flightNumber":544,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-10-08",
+    "Class":1
+  },
+  {
+    "flightNumber":545,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":14784,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-10-14",
+    "Class":1
+  },
+  {
+    "flightNumber":547,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-10-16",
+    "Class":1
+  },
+  {
+    "flightNumber":548,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-10-19",
+    "Class":1
+  },
+  {
+    "flightNumber":549,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-10-19",
+    "Class":1
+  },
+  {
+    "flightNumber":550,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-10-22",
+    "Class":1
+  },
+  {
+    "flightNumber":551,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":6100,
+    "orbit":"GTO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-10-24",
+    "Class":1
+  },
+  {
+    "flightNumber":552,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-10-25",
+    "Class":1
+  },
+  {
+    "flightNumber":553,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-10-26",
+    "Class":1
+  },
+  {
+    "flightNumber":554,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-10-28",
+    "Class":1
+  },
+  {
+    "flightNumber":555,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-10-29",
+    "Class":1
+  },
+  {
+    "flightNumber":556,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-10-31",
+    "Class":1
+  },
+  {
+    "flightNumber":558,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-11-06",
+    "Class":1
+  },
+  {
+    "flightNumber":559,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-11-06",
+    "Class":1
+  },
+  {
+    "flightNumber":560,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-11-09",
+    "Class":1
+  },
+  {
+    "flightNumber":561,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-11-11",
+    "Class":1
+  },
+  {
+    "flightNumber":562,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-11-15",
+    "Class":1
+  },
+  {
+    "flightNumber":563,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-11-15",
+    "Class":1
+  },
+  {
+    "flightNumber":564,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":1440,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-11-17",
+    "Class":1
+  },
+  {
+    "flightNumber":565,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-11-19",
+    "Class":1
+  },
+  {
+    "flightNumber":566,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-11-21",
+    "Class":1
+  },
+  {
+    "flightNumber":567,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-11-22",
+    "Class":1
+  },
+  {
+    "flightNumber":568,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-11-23",
+    "Class":1
+  },
+  {
+    "flightNumber":570,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-12-01",
+    "Class":1
+  },
+  {
+    "flightNumber":571,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":15525,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-12-02",
+    "Class":1
+  },
+  {
+    "flightNumber":572,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-12-02",
+    "Class":1
+  },
+  {
+    "flightNumber":573,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-12-04",
+    "Class":1
+  },
+  {
+    "flightNumber":574,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-12-07",
+    "Class":1
+  },
+  {
+    "flightNumber":575,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-12-08",
+    "Class":1
+  },
+  {
+    "flightNumber":577,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":15525,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-12-10",
+    "Class":1
+  },
+  {
+    "flightNumber":578,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-12-11",
+    "Class":1
+  },
+  {
+    "flightNumber":579,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":15525,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-12-14",
+    "Class":1
+  },
+  {
+    "flightNumber":580,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-12-15",
+    "Class":1
+  },
+  {
+    "flightNumber":581,
+    "launchSite":"KSC LC-39A",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-12-17",
+    "Class":1
+  },
+  {
+    "flightNumber":582,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":15525,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2025-12-17",
+    "Class":1
+  },
+  {
+    "flightNumber":583,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":2230,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-01-03",
+    "Class":1
+  },
+  {
+    "flightNumber":584,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-01-04",
+    "Class":1
+  },
+  {
+    "flightNumber":585,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-01-09",
+    "Class":1
+  },
+  {
+    "flightNumber":586,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":325,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-01-11",
+    "Class":1
+  },
+  {
+    "flightNumber":587,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-01-12",
+    "Class":1
+  },
+  {
+    "flightNumber":588,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-01-14",
+    "Class":1
+  },
+  {
+    "flightNumber":590,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-01-18",
+    "Class":1
+  },
+  {
+    "flightNumber":591,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":14375,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-01-22",
+    "Class":1
+  },
+  {
+    "flightNumber":592,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":14375,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-01-25",
+    "Class":1
+  },
+  {
+    "flightNumber":593,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":4350,
+    "orbit":"MEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-01-28",
+    "Class":1
+  },
+  {
+    "flightNumber":594,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":14375,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-01-29",
+    "Class":1
+  },
+  {
+    "flightNumber":595,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-01-30",
+    "Class":1
+  },
+  {
+    "flightNumber":596,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":14375,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-02-02",
+    "Class":1
+  },
+  {
+    "flightNumber":597,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":14375,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-02-07",
+    "Class":1
+  },
+  {
+    "flightNumber":598,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":13800,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-02-11",
+    "Class":1
+  },
+  {
+    "flightNumber":599,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":13000,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-02-13",
+    "Class":1
+  },
+  {
+    "flightNumber":600,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":13800,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-02-15",
+    "Class":1
+  },
+  {
+    "flightNumber":601,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-02-16",
+    "Class":1
+  },
+  {
+    "flightNumber":602,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-02-20",
+    "Class":1
+  },
+  {
+    "flightNumber":603,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":14375,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-02-21",
+    "Class":1
+  },
+  {
+    "flightNumber":604,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16100,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-02-22",
+    "Class":1
+  },
+  {
+    "flightNumber":605,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-02-24",
+    "Class":1
+  },
+  {
+    "flightNumber":606,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":14375,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-02-25",
+    "Class":1
+  },
+  {
+    "flightNumber":607,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-02-27",
+    "Class":1
+  },
+  {
+    "flightNumber":608,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":14375,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-03-01",
+    "Class":1
+  },
+  {
+    "flightNumber":609,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-03-02",
+    "Class":1
+  },
+  {
+    "flightNumber":610,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-03-04",
+    "Class":1
+  },
+  {
+    "flightNumber":611,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":14375,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-03-08",
+    "Class":1
+  },
+  {
+    "flightNumber":612,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":6800,
+    "orbit":"GTO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-03-10",
+    "Class":1
+  },
+  {
+    "flightNumber":613,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":14375,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-03-13",
+    "Class":1
+  },
+  {
+    "flightNumber":614,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-03-14",
+    "Class":1
+  },
+  {
+    "flightNumber":615,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":14375,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-03-17",
+    "Class":1
+  },
+  {
+    "flightNumber":616,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-03-17",
+    "Class":1
+  },
+  {
+    "flightNumber":617,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-03-19",
+    "Class":1
+  },
+  {
+    "flightNumber":618,
+    "launchSite":"VAFB SLC-4E",
+    "payloadMass":14375,
+    "orbit":"SSO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-03-20",
+    "Class":1
+  },
+  {
+    "flightNumber":619,
+    "launchSite":"CCAFS LC-40",
+    "payloadMass":16675,
+    "orbit":"LEO",
+    "outcome":"Success",
+    "boosterVersion":"F9B5",
+    "date":"2026-03-22",
+    "Class":1
+  }
+]

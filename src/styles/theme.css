@@ -1,6 +1,8 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
+  color-scheme: light;
+
   --font-size: 16px;
   
   /* Thrust Insights Custom Color Palette */
@@ -8,7 +10,7 @@
   --command-slate: #1A1F2B;
   --stellar-white: #F8FAFC;
   --nebula-gray: #94A3B8;
-  --ignition-orange: #FF5C00;
+  --ignition-orange: #FF5C00; 
   --orbit-blue: #00A3FF;
   --stable-green: #10B981;
   
@@ -190,5 +192,34 @@
     font-size: var(--text-base);
     font-weight: var(--font-weight-normal);
     line-height: 1.5;
+  }
+}
+
+.logo {
+  width: 50px;
+}
+
+/* Github icon */
+.repo-icon {
+  width: 1rem; 
+  margin-right: 0.5rem;
+}
+
+footer .logo {
+  width: 90px;
+}
+
+
+/* Custom overlay for hero gradient */
+@layer components {
+  .hero-gradient-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(11, 14, 20, 0.5),
+      rgba(11, 14, 20, 1)
+    );
+    forced-color-adjust: none;
   }
 }

@@ -9,15 +9,15 @@ export function Hero() {
   };
 
   return (
-    <section className="relative min-h-scrn flex items-center justify-center overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-shown">
       {/* Background Image with Overlay */}
-      <div className="absolute inset-0 z-0">
+      <div  className="absolute inset-0 z-0">
         <img
-          src="../src/assets/img/hero.png"
-          alt="Falcon-9 Launch"
+          src="/src/assets/img/hero.png"
+          alt="Falcon-9 rocket landing"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0B0E14AA]  to-[#0B0E14]"></div>
+        <div className="hero-gradient-overlay"></div>
       </div>
 
       {/* Content */}

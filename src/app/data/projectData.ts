@@ -5,10 +5,10 @@ export const projectData = {
     "last_updated": "March 2026"
   },
   "summary_stats": {
-    "total_launches": 312,
-    "overall_success_rate": "98.4%",
-    "boosters_recovered": 264,
-    "total_payload_mass_kg": 1450000
+    "total_launches": 475,
+    "overall_success_rate": "92.6%",
+    "boosters_recovered": 440,
+    "total_payload_mass_kg": 5696723
   },
   "market_comparison": [
     {
@@ -18,20 +18,26 @@ export const projectData = {
     },
     {
       "provider": "Traditional Expendable",
-      "cost_per_kg": 18500,
+      "cost_per_kg": 10000,
       "reusability": false
     }
   ],
   "milestones": [
     {
       "year": 2015,
-      "event": "First successful orbital booster landing",
-      "impact": "Proof of concept for reusability"
+      "event": "First successful booster landing",
     },
     {
-      "year": 2023,
-      "event": "Record 96 launches in a single year",
-      "impact": "Demonstration of launch cadence"
+      "year": 2017,
+      "event": "First successful Reuse Booster",
+    },
+    {
+      "year": 2019,
+      "event": "First Starlink Dedicated Mission",
+    },
+    {
+      "year": 2025,
+      "event": "Record 149 launches in a single year",
     }
   ]
 };
