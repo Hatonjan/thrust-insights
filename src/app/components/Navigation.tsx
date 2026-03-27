@@ -77,7 +77,7 @@ export function Navigation() {
             </Link>
           </div>
 
-          {/* Github repo link */}
+          {/* Github repo Button */}
           <a
             href="https://github.com/Hatonjan"
             target="_blank"

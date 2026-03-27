@@ -10,7 +10,7 @@ export function Solution() {
             The Solution
           </h2>
           <p className="text-lg text-[#94A3B8] max-w-4xl mx-auto leading-relaxed mb-8">
-            Introducing <span className="text-[#00A3FF] font-semibold">Thrust Insights</span>.  By applying statistical modeling and interactive visualizations, this project strips away the complexity into a clear, actionable narrative on how reusability is transforming spaceflight economics.
+            By applying statistical modeling and interactive visualizations, this project strips away the complexity into a clear, narrative on how reusability is transforming spaceflight economics.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-[2fr_0.125fr_2fr] gap-4 mb-12 items-center">
             <figure>
@@ -99,7 +99,7 @@ export function Solution() {
             <div className="absolute bottom-8 left-8 right-8">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="bg-[#0B0E14]/80 backdrop-blur-sm p-4 rounded-sm border border-[#94A3B8]/20">
-                  <div className="text-[#FF5C00] text-3xl font-bold">10+</div>
+                  <div className="text-[#FF5C00] text-3xl font-bold">15+</div>
                   <div className="text-[#94A3B8] text-sm">Years of Data</div>
                 </div>
                 <div className="bg-[#0B0E14]/80 backdrop-blur-sm p-4 rounded-sm border border-[#94A3B8]/20">
