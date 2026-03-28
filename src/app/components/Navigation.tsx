@@ -85,7 +85,7 @@ export function Navigation() {
           <div className="flex items-center gap-2 md:gap-4 ml-auto flex-shrink-0">
             {/* Github repo Button */}
             <a
-              href="https://github.com/Hatonjan"
+              href="https://github.com/Hatonjan/spacex-data-analysis-2026"
               target="_blank"
               className="hidden sm:flex px-6 py-2 bg-transparent border-2 border-[#00A3FF] text-[#F8FAFC] rounded-lg hover:bg-[#00A3FF]/90 transition-colors flex-shrink-0">
               <figure>

@@ -1,23 +1,35 @@
 
 # Thrust Insights: Analyzing the Economics of Spaceflight
 
-A modern data science landing page showcasing analysis of spaceflight economics and launch metrics. Built with React, TypeScript, and Tailwind CSS v4.
+A modern data science web application showcasing interactive analysis of spaceflight economics and launch metrics. Built with React, TypeScript, and Tailwind CSS v4.
 
 ## 🚀 Project Overview
 
-Thrust Insights presents compelling data visualizations and insights about rocket launch costs, reliability scaling, and the economic impact of reusable booster technology. This project demonstrates how data science findings can be communicated through an engaging, professionally-designed web interface.
+Thrust Insights combines a data-driven landing page, interactive dashboard, and methodology documentation. The project demonstrates how Python data science findings can be transformed into a professionally-designed web interface with interactive visualizations.
 
-**Project**: Data science analysis of spaceflight economics
+**Features**:
+- Landing page with 4 sections (Hero, Problem, Solution, Key Insights)
+- Interactive dashboard with real-time data filtering and Recharts visualizations
+- About page with project methodology
+- Fully responsive mobile design
+- Link to Analysis Repository for transparency on data sourcing
+
+**Data Pipeline**: Raw launch telemetry → Python analysis → JSON export → React Dashboard
 
 ## 📋 Tech Stack
 
+**Frontend**:
 - **Frontend Framework**: React 18 with TypeScript
 - **Styling**: Tailwind CSS v4 (with custom CSS properties)
 - **Routing**: React Router v7
 - **Build Tool**: Vite 6
-- **Data Visualization**: Recharts
+- **Data Visualization**: Recharts for interactive charts
 - **Icons**: Lucide React
-- **UI Components**: Custom components + Radix UI primitives
+
+**Data Science** (upstream):
+- Python for data analysis and processing
+- Output: JSON formatted launch data
+- Stored in: `src/app/data/launchData.json`
 
 ## 🎨 Design System
 
@@ -41,24 +53,25 @@ All colors are defined as CSS custom properties in `src/styles/theme.css`.
 src/
 ├── app/
 │   ├── App.tsx              # Router setup
-│   ├── routes.tsx           # Route configuration (Landing, About)
+│   ├── routes.tsx           # Route configuration
 │   ├── pages/
 │   │   ├── Landing.tsx      # Main page with 4 hero sections
-│   │   └── About.tsx        # Project background & methodology
+│   │   ├── About.tsx        # Project background & methodology
+│   │   └── Dashboard.tsx    # Interactive data dashboard with Recharts
 │   ├── components/
-│   │   ├── Navigation.tsx   # Header with smooth scroll links
+│   │   ├── Navigation.tsx   # Header with smooth scroll + Analysis Repo link
 │   │   ├── Footer.tsx       # Footer with social links
 │   │   ├── Hero.tsx         # Hero section
 │   │   ├── Problem.tsx      # The Data Gap problem statement
 │   │   ├── Solution.tsx     # Thrust Insights solution intro
-│   │   ├── KeyInsights.tsx  # Data visualizations
-│   │   └── ui/              # Radix UI component library
+│   │   └── KeyInsights.tsx  # Data visualizations with modals
 │   └── data/
-│       └── projectData.ts   # Falcon-9 launch data (TypeScript module)
+│       ├── projectData.ts      # Landing page data
+│       └── launchData.ts       # Dashboard launch records (from Python analysis)
 ├── styles/
 │   ├── index.css            # Main stylesheet
 │   ├── theme.css            # CSS custom properties
-│   ├── fonts.css            # Font imports
+│   ├── Dashboard.css        # Dashboard-specific styles
 │   └── tailwind.css         # Tailwind directives
 └── main.tsx                 # React entry point
 ```
@@ -83,26 +96,88 @@ npm run build
 
 The development server runs at `http://localhost:5173` by default.
 
-## 📝 Data Structure
+## � Data Pipeline
 
-Data is stored as a TypeScript module (not via external API) in `src/app/data/projectData.ts`:
+### Data Sources
+- Launch data is obtained through **Python data science analysis**
+- Raw data is processed, cleaned, and analyzed
+- Results are exported to JSON format
 
+### Data Structure
+Processed data is stored as TypeScript modules in `src/app/data/`:
+
+**Landing Page Data** (`projectData.ts`):
 ```typescript
 export const projectData = {
-  project_metadata: { /* ... */ },
-  summary_stats: { /* ... */ },
-  market_comparison: [ /* ... */ ],
-  milestones: [ /* ... */ ]
+  project_metadata: { /* version, last_updated */ },
+  summary_stats: { /* total_launches, success_rate */ },
+  market_comparison: [ /* cost comparisons */ ],
+  milestones: [ /* timeline events */ ]
 }
 ```
 
-This approach allows you to:
-- Import data directly in components
-- Version control all data with the code
-- Avoid external API dependencies
-- Update data without server changes
+**Dashboard Data** (`launchData.ts`):
+```typescript
+export const launchData = [
+  {
+    flightNumber: 1,
+    launchSite: "CCAFS",
+    orbit: "LEO",
+    payloadMass: 3700,
+    outcome: 0  // 0 = Failure, 1 = Success
+    // ... more fields
+  }
+  // ... 400+ launch records
+]
+```
 
-## 🔄 Workflow: Adding Content
+### Why JSON in Code?
+- ✅ Version control - track data changes with commits
+- ✅ No external API needed - works offline
+- ✅ Type safety - TypeScript exports provide autocomplete
+- ✅ Fast loading - bundled with the app
+- ✅ Transparency - all data is visible in the repository
+
+### Contributing Analysis
+To add new data or update existing data:
+1. Update your Python analysis
+2. Export results to JSON
+3. Update `src/app/data/launchData.json` or `projectData.ts`
+4. Commit and push
+5. Analytics page automatically reflects changes on rebuild
+
+## � Interactive Dashboard
+
+The `/dashboard` page provides real-time analysis of SpaceX launch data:
+
+**Features**:
+- **Launch Site Filter** - Select specific launch sites or view all sites
+- **Payload Range Slider** - Filter launches by payload mass (in kg)
+- **Scatter Chart** - Visualize launch outcomes vs payload mass by orbit type
+- **Pie Chart** - Show success rates by launch site or outcome breakdown
+- **Stats Cards** - Display key metrics: successful launches, total launches, success rate %
+- **Responsive Design** - Scatter chart hidden on mobile for better UX (shows explanatory message)
+
+**Data Interaction**:
+```typescript
+// Filters work in real-time
+const filteredData = launchData.filter(launch =>
+  (selectedSite === "All" || launch.launchSite === selectedSite) &&
+  launch.payloadMass >= payloadRange[0] &&
+  launch.payloadMass <= payloadRange[1]
+)
+```
+
+## 🔬 Analysis Repository
+
+The **Analysis Repo button** in the navigation bar links to a separate repository containing:
+- Python Jupyter notebooks with data science analysis
+- Raw data sources and cleaning procedures
+- Statistical models and methodology
+- Visualization code and explanations
+- Literature references and assumptions
+
+This promotes **transparency** - users can trace how all dashboard numbers were derived.
 
 ### 1. Update Section Content
 Edit the relevant component file:
@@ -159,32 +234,56 @@ export function MyChart() {
 
 The site uses **smooth scroll** for sections on the landing page and **React Router** for page navigation:
 
-- **Landing Page** (`/`) - Hero, Problem, Solution, Key Insights
+- **Landing Page** (`/`) - Hero, Problem, Solution, Key Insights sections
+- **Dashboard** (`/dashboard`) - Interactive data visualization & filtering
 - **About Page** (`/about`) - Project methodology & background
+- **Analysis Repo Button** - Navigation bar link to external repository with detailed Python analysis
 
-Navigation uses `onClick` handlers with `scrollIntoView()` for smooth scrolling to section IDs.
+Navigation features:
+- Smooth scrolling to sections on landing page
+- Mobile hamburger menu (hidden on desktop, responsive)
+- Analysis Repo button links to external GitHub repository with data science methodology
 
 ## 🎯 Development Guidelines
 
 ### Styling
 - Use Tailwind classes for layout and responsive design
-- Use CSS custom properties for colors (defined in `theme.css`)
-- No custom font-size/weight/line-height Tailwind classes (use theme.css)
-- Default `h1`, `h2`, etc. styles are in `theme.css`
+- Use CSS custom properties for colors (defined in `src/styles/theme.css`)
+- Default `h1`, `h2`, etc. styles are in `src/styles/theme.css`
+- Dashboard has responsive padding and sizing in `src/styles/Dashboard.css`
 
 ### TypeScript
-- All components are TypeScript (`.tsx`/`.ts` files)
-- You can add JavaScript if needed (though all files here use TypeScript)
-- Install `@types/*` packages for any third-party libraries
+- All components are TypeScript (`.tsx` files)
+- Data files use `.ts` extension
+- Type-safe data structures for launch records and project data
+
+### Responsive Design
+- Mobile-first approach using Tailwind breakpoints: `sm:`, `md:`, `lg:`
+- Hamburger menu on mobile, full navigation on desktop
+- Dashboard scatter chart hidden on mobile (shows explanatory message)
+- All cards and layouts adapt to screen size
 
 ### Performance
 - Tailwind v4 with Vite provides excellent build performance
-- CSS is minified at build time
-- JavaScript bundle is optimized for production
+- CSS is minified at build time (~34.87 kB gzipped)
+- JavaScript bundle optimized for production (~772 kB gzipped)
+- No external API calls - all data is bundled with the app
 
-## 📦 Dependency Notes
+## 📦 Dependencies
 
-Some unused Figma-generated dependencies exist (e.g., `@mui/material`, `@emotion/react`). These can be removed if not needed, but are harmless for now while you're developing.
+**Key Dependencies**:
+- `react` & `react-dom` - UI library
+- `react-router` - SPA routing
+- `recharts` - Data visualization
+- `lucide-react` - Icon library
+- `tailwindcss` - CSS framework
+- `typescript` - Type safety
+- `vite` - Build tool
+
+**Removed** (unused Figma-generated components):
+- ✅ All unused Radix UI components removed
+- ✅ `figma/` component folder removed
+- ✅ Documentation files cleaned up
 
 ## 🔐 Security
 
@@ -237,5 +336,8 @@ This project is for portfolio purposes.
 
 ---
 
-**Questions?** Check the [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md) for additional technical details.
+**Next Steps**:
+1. Add your Analysis Repository URL to the Navigation component
+2. Deploy to Netlify, Vercel, or Cloudflare Pages
+3. Share your dashboard with stakeholders!
   
