@@ -32,10 +32,13 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <button onClick={() => handleSectionClick("hero")} className="flex items-center gap-2 hover:opacity-80 transition-opacity cursor-pointer flex-shrink-0">
+          <button onClick={() => handleSectionClick("hero")} className="flex items-center gap-2 hover:opacity-80 transition-opacity cursor-pointer flex-shrink-0 mr-auto">
             {/* <Rocket className="w-6 h-6 text-[#FF5C00]" /> */}
             <figure>
-              <img className="logo" src="/src/assets/img/logo.png" alt="The logo of the website" />
+              <img 
+              className="logo" 
+              src="/src/assets/img/logo.png" 
+              alt="The logo of the website" />
             </figure>
             <span className="text-xl font-semibold text-[#F8FAFC]">Thrust Insights</span>
           </button>
