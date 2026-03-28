@@ -44,7 +44,7 @@ export function About() {
 
             <div className="relative">
               <img
-                src="src/assets/img/launch.png"
+                src="/assets/img/launch.png"
                 alt="Falcon-9 Rocket"
                 className="rounded-sm shadow-2xl border border-[#94A3B8]/20"
               />
