@@ -36,7 +36,7 @@ export function Navigation() {
             <figure>
               <img 
               className="logo" 
-              src="/src/assets/img/logo.png" 
+              src="./src/assets/img/logo.png" 
               alt="The logo of the website" />
             </figure>
             <span className="text-xl font-semibold text-[#F8FAFC]">Thrust Insights</span>
@@ -89,7 +89,11 @@ export function Navigation() {
               target="_blank"
               className="hidden sm:flex px-6 py-2 bg-transparent border-2 border-[#00A3FF] text-[#F8FAFC] rounded-lg hover:bg-[#00A3FF]/90 transition-colors flex-shrink-0">
               <figure>
-                <img className="repo-icon" src="/src/assets/img/github-repo.png" alt="The icon of the Github repositories" />
+                <img 
+                  className="repo-icon" 
+                  src="./src/assets/img/github-repo.png" 
+                  alt="The icon of the Github repositories" 
+                />
               </figure>
               Analysis Repo
             </a>
