@@ -1,6 +1,6 @@
 import { Navigation } from "../components/Navigation";
 import { Footer } from "../components/Footer";
-import { Code, BarChart3, Eye, Target, Users, Lightbulb } from "lucide-react";
+import { Database, BarChart3, Eye} from "lucide-react";
 
 export function About() {
   return (
@@ -13,7 +13,7 @@ export function About() {
           <h1 className="text-5xl md:text-6xl font-bold text-[#F8FAFC] mb-6">
             About Thrust Insights
           </h1>
-          <p className="text-xl text-[#F8FAFC] leading-relaxed">
+          <p className="text-xl text-[#F8FAFC]/80 leading-relaxed">
             A comprehensive analysis of reusable spaceflight through the lens of SpaceX's Falcon-9 program.
           </p>
         </div>
@@ -63,7 +63,7 @@ export function About() {
               <div className="absolute inset-0 bg-gradient-to-r from-[#FF5C00]/10 to-transparent blur-xl group-hover:blur-2xl transition-all"></div>
               <div className="relative p-8 bg-[#1A1F2B] border border-[#94A3B8]/20 rounded-sm hover:border-[#FF5C00]/50 transition-all h-75">
                 <div className="inline-flex p-3 bg-[#FF5C00]/10 rounded-sm mb-4">
-                  <Code className="w-6 h-6 text-[#FF5C00]" />
+                  <Database className="w-6 h-6 text-[#FF5C00]" />
                 </div>
                 <h3 className="text-xl font-semibold text-[#F8FAFC] mb-3">
                   Data Collection

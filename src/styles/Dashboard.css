@@ -4,15 +4,16 @@
     .dashboard-container {
         min-height: 100vh;
         background-color: var(--background);
-        margin: 0 8rem;
+        margin: 0;
+        padding: 0 1rem;
     }
 
     /* Header Section */
     .dashboard-header {
-        padding-top: 8rem;
-        padding-bottom: 2rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        padding-top: 6rem;
+        padding-bottom: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .dashboard-header-content {
@@ -35,18 +36,11 @@
     }
 
     .dashboard-title {
-        font-size: 3rem;
+        font-size: 2.125rem;
         line-height: 1.2;
         font-weight: 700;
-        margin-bottom: 1rem;
+        margin: 2rem 0 1rem;
         color: var(--foreground);
-        
-    }
-
-    @media (min-width: 768px) {
-        .dashboard-title {
-        font-size: 3.75rem;
-        }
     }
 
     .dashboard-subtitle {
@@ -59,7 +53,7 @@
 
     /* Controls Section */
     .dashboard-controls {
-        padding: 2rem 1.5rem;
+        padding: 1.5rem 1rem;
     }
 
     .dashboard-controls-grid {
@@ -69,12 +63,6 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 2rem;
-    }
-
-    @media (min-width: 768px) {
-        .dashboard-controls-grid {
-        grid-template-columns: 1fr 1fr;
-        }
     }
 
     .dashboard-form-group {
@@ -90,7 +78,7 @@
     }
 
     .dashboard-form-select {
-        width: 100%;
+        max-width: 80vw;
         padding: 0.75rem 1rem;
         border-radius: 5px;
         cursor: pointer;
@@ -128,7 +116,7 @@
 
     /* Charts Section */
     .dashboard-charts {
-        padding: 3rem 1.5rem;
+        padding: 2rem 1rem;
     }
 
     .dashboard-charts-grid {
@@ -140,22 +128,16 @@
         gap: 2rem;
     }
 
-    @media (min-width: 1024px) {
-        .dashboard-charts-grid {
-        grid-template-columns: 1fr 1fr;
-        }
-    }
-
     .dashboard-chart-card {
         border-radius: 5px;
-        padding: 2rem;
+        padding: 1rem;
         border: 1px solid rgba(148, 163, 184, 0.2);
         background-color: var(--card);
     }
 
     .dashboard-chart-title {
-        font-size: 1.5rem;
-        line-height: 2rem;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
         font-weight: 700;
         margin-bottom: 1.5rem;
         text-align: center;
@@ -180,7 +162,7 @@
 
     /* Stats Section */
     .dashboard-stats {
-        padding: 3rem 1.5rem;
+        padding: 2rem 1rem;
     }
 
     .dashboard-stats-grid {
@@ -192,23 +174,17 @@
         gap: 1.5rem;
     }
 
-    @media (min-width: 768px) {
-        .dashboard-stats-grid {
-        grid-template-columns: 1fr 1fr 1fr;
-        }
-    }
-
     .dashboard-stat-card {
         border-radius: 5px;
-        padding: 1.5rem;
+        padding: 1rem;
         text-align: center;
         border: 1px solid rgba(148, 163, 184, 0.2);
         background-color: var(--card);
     }
 
     .dashboard-stat-value {
-        font-size: 2.25rem;
-        line-height: 2.5rem;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
         font-weight: 700;
         margin-bottom: 0.5rem;
     }
@@ -228,5 +204,74 @@
         list-style: none;
         padding: 0;
         margin: 0;
+    }
+
+    @media (min-width: 1024px) {
+        .dashboard-charts-grid {
+        grid-template-columns: 1fr 1fr;
+        }
+
+        .dashboard-container {
+            padding: 0 8rem;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .dashboard-stat-value {
+            font-size: 2.25rem;
+            line-height: 2.5rem;
+        }
+
+        .dashboard-stat-card {
+            padding: 1.5rem;
+        }
+
+        .dashboard-stats-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .dashboard-stats {
+            padding: 3rem 1.5rem;
+        }
+
+        .dashboard-chart-title {
+            font-size: 1.5rem;
+            line-height: 2rem;
+        }
+
+        .dashboard-chart-card {
+            padding: 2rem;
+        }
+
+        .dashboard-charts {
+            padding: 3rem 1.5rem;
+        }
+
+        .dashboard-controls-grid {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .dashboard-controls {
+            padding: 2rem 1.5rem;
+        }
+
+        .dashboard-form-select {
+            width: 100%;
+        }
+
+        .dashboard-title {
+        font-size: 3.75rem;
+        }
+
+        .dashboard-header {
+            padding-top: 8rem;
+            padding-bottom: 2rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+
+        .dashboard-container {
+            padding: 0 3rem;
+        }
     }
 }

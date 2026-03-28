@@ -199,7 +199,7 @@ export function KeyInsights() {
           <h3 className="text-2xl font-bold text-[#F8FAFC] mb-8 text-center">
             Historic Milestones
           </h3>
-          <div className="grid auto-rows-fr md:grid-cols-4 gap-5 h-full relative">
+          <div className="grid auto-rows-fr md:grid-cols-4 gap-5 h-full relative overflow-hidden">
             {data.milestones.map((milestone, index) => (
               <div key={index} className="flex flex-col items-center justify-start gap-4 relative">
                 
@@ -212,7 +212,7 @@ export function KeyInsights() {
                 </div>
 
                 {index < data.milestones.length - 1 && (
-                  <div className="absolute top-8 -right-31.5 w-58 h-0.25 bg-[#00A3FF]/20"></div>
+                  <div className="hidden md:block absolute top-8 left-1/2 w-full h-0.25 bg-[#00A3FF]/20"></div>
                 )}
                 
                 <div className="text-center">

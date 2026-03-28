@@ -1,4 +1,5 @@
 import { useState, useMemo } from "react";
+import { ChartScatter } from "lucide-react"
 import { PieChart, Pie, Cell, ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts";
 import { Navigation } from "../components/Navigation";
 import { Footer } from "../components/Footer";
@@ -110,7 +111,7 @@ export function Dashboard() {
                         <select
                             value={selectedSite}
                             onChange={(e) => setSelectedSite(e.target.value)}
-                            className="dashboard-form-select"
+                            className="dashboard-form-select max-w-80 md:max-w-none"
                         >
                             {launchSites.map((site) => (
                                 <option key={site} value={site}>
@@ -122,7 +123,7 @@ export function Dashboard() {
 
                     {/* Payload Range Slider */}
                     <div className="dashboard-form-group">
-                        <label className="dashboard-form-label">
+                        <label className="dashboard-form-label pb-2">
                             Payload Range: {payloadRange[0].toLocaleString()} - {payloadRange[1].toLocaleString()} kg
                         </label>
                         <div className="dashboard-slider-container">
@@ -133,7 +134,7 @@ export function Dashboard() {
                                 step={500}
                                 value={payloadRange[0]}
                                 onChange={(e) => setPayloadRange([Number(e.target.value), payloadRange[1]])}
-                                className="dashboard-slider"
+                                className="dashboard-slider max-w-40 md:max-w-none"
                             />
                             <input
                                 type="range"
@@ -142,7 +143,7 @@ export function Dashboard() {
                                 step={500}
                                 value={payloadRange[1]}
                                 onChange={(e) => setPayloadRange([payloadRange[0], Number(e.target.value)])}
-                                className="dashboard-slider"
+                                className="dashboard-slider max-w-40 md:max-w-none"
                             />
                         </div>
                     </div>
@@ -156,71 +157,84 @@ export function Dashboard() {
                         <h2 className="dashboard-chart-title">
                             Launch Outcome vs Payload Mass
                         </h2>
-                        {scatterData.length > 0 ? (
-                            <ResponsiveContainer width="100%" height={400}>
-                                <ScatterChart margin={{ top: 20, right: 20, bottom: 20, left: 20 }}>
-                                    <CartesianGrid strokeDasharray="3 3" stroke="var(--muted-foreground)" />
-                                    <XAxis
-                                        type="number"
-                                        dataKey="x"
-                                        name="Payload Mass (kg)"
-                                        stroke="var(--muted-foreground)"
-                                        label={{ value: "Payload Mass (kg)", position: "insideBottomLeft", offset: -10, fill: "var(--foreground)" }}
-                                    />
-                                    <YAxis
-                                        type="number"
-                                        dataKey="y"
-                                        name="Outcome"
-                                        stroke="var(--muted-foreground)"
-                                        domain={[-0.5, 1.5]}
-                                        ticks={[0, 1]}
-                                        tickFormatter={(value) => (value === 0 ? "Failure" : "Success")}
-                                        label={{ value: "Outcome", angle: -90, position: "insideLeftTop", offset: 10, fill: "var(--foreground)" }}
-                                    />
-                                    <Tooltip
-                                        cursor={{ strokeDasharray: "3 3" }}
-                                        contentStyle={{
-                                            backgroundColor: "var(--card)",
-                                            border: "1px solid var(--muted-foreground)",
-                                            borderRadius: "5px",
-                                            color: "#F8FAFC",
-                                        }}
-                                        labelStyle={{ color: "#F8FAFC" }}
-                                        formatter={(value: any) => {
-                                            if (typeof value === "number" && (value === 0 || value === 1)) {
-                                                return [value === 0 ? "Failure" : "Success", "Outcome"];
-                                            }
-                                            return value;
-                                        }}
-                                        itemStyle={{ color: "#F8FAFC" }}
-                                    />
-                                    {orbits.map((orbit) => (
-                                        <Scatter
-                                            key={orbit}
-                                            name={orbit}
-                                            data={scatterData.filter((d) => d.orbit === orbit)}
-                                            fill={orbitColors[orbit] || "var(--secondary)"}
-                                        />
-                                    ))}
-                                    <Legend
-                                        verticalAlign="bottom"
-                                        height={50}
-                                        wrapperStyle={{ 
-                                            paddingTop: "1rem",
-                                            marginBottom: "-2rem",
-                                            backgroundColor: "var(--background)",
-                                            border: "1px solid var(--muted-foreground)",
-                                            borderRadius: "5px",
-                                            padding: "0.5rem",
-                                        }}
-                                    />
-                                </ScatterChart>
-                            </ResponsiveContainer>
-                        ) : (
-                            <div className="dashboard-no-data">
-                                <p className="dashboard-no-data-text">No data available for this selection</p>
+                        
+                        {/* Mobile: Message */}
+                        <div className="md:hidden flex flex-col items-center justify-center p-8 text-center gap-4">
+                            <ChartScatter className="w-12 h-12 text-[#00A3FF]"/>
+                            <div>
+                                <p className="text-[#94A3B8] mb-2">Interactive Chart</p>
+                                <p className="text-[#94A3B8] text-sm">This interactive plot chart is only available on desktop version for better visibility and interaction.</p>
                             </div>
-                        )}
+                        </div>
+                        
+                        {/* Desktop: Chart */}
+                        <div className="hidden md:block">
+                            {scatterData.length > 0 ? (
+                                <ResponsiveContainer width="100%" height={400}>
+                                    <ScatterChart margin={{ top: 20, right: 20, bottom: 20, left: 20 }}>
+                                        <CartesianGrid strokeDasharray="3 3" stroke="var(--muted-foreground)" />
+                                        <XAxis
+                                            type="number"
+                                            dataKey="x"
+                                            name="Payload Mass (kg)"
+                                            stroke="var(--muted-foreground)"
+                                            label={{ value: "Payload Mass (kg)", position: "insideBottomLeft", offset: -10, fill: "var(--foreground)" }}
+                                        />
+                                        <YAxis
+                                            type="number"
+                                            dataKey="y"
+                                            name="Outcome"
+                                            stroke="var(--muted-foreground)"
+                                            domain={[-0.5, 1.5]}
+                                            ticks={[0, 1]}
+                                            tickFormatter={(value) => (value === 0 ? "Failure" : "Success")}
+                                            label={{ value: "Outcome", angle: -90, position: "insideLeftTop", offset: 10, fill: "var(--foreground)" }}
+                                        />
+                                        <Tooltip
+                                            cursor={{ strokeDasharray: "3 3" }}
+                                            contentStyle={{
+                                                backgroundColor: "var(--card)",
+                                                border: "1px solid var(--muted-foreground)",
+                                                borderRadius: "5px",
+                                                color: "#F8FAFC",
+                                            }}
+                                            labelStyle={{ color: "#F8FAFC" }}
+                                            formatter={(value: any) => {
+                                                if (typeof value === "number" && (value === 0 || value === 1)) {
+                                                    return [value === 0 ? "Failure" : "Success", "Outcome"];
+                                                }
+                                                return value;
+                                            }}
+                                            itemStyle={{ color: "#F8FAFC" }}
+                                        />
+                                        {orbits.map((orbit) => (
+                                            <Scatter
+                                                key={orbit}
+                                                name={orbit}
+                                                data={scatterData.filter((d) => d.orbit === orbit)}
+                                                fill={orbitColors[orbit] || "var(--secondary)"}
+                                            />
+                                        ))}
+                                        <Legend
+                                            verticalAlign="bottom"
+                                            height={50}
+                                            wrapperStyle={{ 
+                                                paddingTop: "1rem",
+                                                marginBottom: "-2rem",
+                                                backgroundColor: "var(--background)",
+                                                border: "1px solid var(--muted-foreground)",
+                                                borderRadius: "5px",
+                                                padding: "0.5rem",
+                                            }}
+                                        />
+                                    </ScatterChart>
+                                </ResponsiveContainer>
+                            ) : (
+                                <div className="dashboard-no-data">
+                                    <p className="dashboard-no-data-text">No data available for this selection</p>
+                                </div>
+                            )}
+                        </div>
                     </div>
 
                     {/* Pie Chart */}

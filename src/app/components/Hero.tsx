@@ -22,11 +22,11 @@ export function Hero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-6 py-32 text-center">
-        <h1 className="text-5xl md:text-7xl font-bold text-[#F8FAFC] mb-6 leading-tight">
+        <h1 className="text-3xl md:text-7xl font-bold text-[#F8FAFC] mb-6 leading-tight">
           Boosting the Space Race with Data Science
         </h1>
         <p className="text-xl md:text-2xl text-[#94A3B8] mb-12 max-w-3xl mx-auto">
-          An analytical deep-dive into SpaceX launch telemetry to identify the inflection point of orbital cost-efficiency.
+          A deep dive into SpaceX launch telemetry to quantify the cost-efficiency of first-stage booster reusability.
         </p>
 
         {/* CTA Buttons */}

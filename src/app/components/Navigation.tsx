@@ -1,8 +1,11 @@
 import { Link, useNavigate, useLocation } from "react-router";
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
 
 export function Navigation() {
   const navigate = useNavigate();
   const location = useLocation();
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -12,6 +15,7 @@ export function Navigation() {
   };
 
   const handleSectionClick = (sectionId: string) => {
+    setMobileMenuOpen(false); // Close mobile menu
     // If not on home page, navigate to home first
     if (location.pathname !== "/") {
       navigate("/");
@@ -28,16 +32,15 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <button onClick={() => handleSectionClick("hero")} className="flex items-center gap-2 hover:opacity-80 transition-opacity cursor-pointer">
+          <button onClick={() => handleSectionClick("hero")} className="flex items-center gap-2 hover:opacity-80 transition-opacity cursor-pointer flex-shrink-0">
             {/* <Rocket className="w-6 h-6 text-[#FF5C00]" /> */}
             <figure>
               <img className="logo" src="/src/assets/img/logo.png" alt="The logo of the website" />
             </figure>
             <span className="text-xl font-semibold text-[#F8FAFC]">Thrust Insights</span>
-            
           </button>
 
-          {/* Navigation Links */}
+          {/* Desktop Navigation Links */}
           <div className="hidden md:flex items-center gap-8">
             <button
               onClick={() => handleSectionClick("hero")}
@@ -77,17 +80,88 @@ export function Navigation() {
             </Link>
           </div>
 
-          {/* Github repo Button */}
-          <a
-            href="https://github.com/Hatonjan"
-            target="_blank"
-            className="flex  px-6 py-2 bg-transparent border-2 border-[#00A3FF] text-[#F8FAFC] rounded-lg hover:bg-[#00A3FF]/90 transition-colors">
-            <figure>
-              <img className="repo-icon" src="/src/assets/img/github-repo.png" alt="The icon of the Github repositories" />
-            </figure>
-            Analysis Repo
-          </a>
+          <div className="flex items-center gap-2 md:gap-4 ml-auto flex-shrink-0">
+            {/* Github repo Button */}
+            <a
+              href="https://github.com/Hatonjan"
+              target="_blank"
+              className="hidden sm:flex px-6 py-2 bg-transparent border-2 border-[#00A3FF] text-[#F8FAFC] rounded-lg hover:bg-[#00A3FF]/90 transition-colors flex-shrink-0">
+              <figure>
+                <img className="repo-icon" src="/src/assets/img/github-repo.png" alt="The icon of the Github repositories" />
+              </figure>
+              Analysis Repo
+            </a>
+
+            {/* Mobile Hamburger Menu */}
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="md:hidden p-2 text-[#F8FAFC] hover:bg-[#94A3B8]/20 rounded-lg transition-colors flex-shrink-0"
+              aria-label="Toggle menu"
+            >
+              {mobileMenuOpen ? (
+                <X className="w-6 h-6" />
+              ) : (
+                <Menu className="w-6 h-6" />
+              )}
+            </button>
+          </div>
         </div>
+
+        {/* Mobile Navigation Menu */}
+        {mobileMenuOpen && (
+          <div className="md:hidden mt-4 pb-4 border-t border-[#94A3B8]/20 pt-4">
+            <div className="flex flex-col gap-3">
+              <button
+                onClick={() => handleSectionClick("hero")}
+                className="text-left px-4 py-2 text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#94A3B8]/10 rounded-lg transition-colors"
+              >
+                Home
+              </button>
+              <button
+                onClick={() => handleSectionClick("problem")}
+                className="text-left px-4 py-2 text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#94A3B8]/10 rounded-lg transition-colors"
+              >
+                The Problem
+              </button>
+              <button
+                onClick={() => handleSectionClick("solution")}
+                className="text-left px-4 py-2 text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#94A3B8]/10 rounded-lg transition-colors"
+              >
+                The Solution
+              </button>
+              <button
+                onClick={() => handleSectionClick("insights")}
+                className="text-left px-4 py-2 text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#94A3B8]/10 rounded-lg transition-colors"
+              >
+                Key Insights
+              </button>
+              <Link
+                to="/dashboard"
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-left px-4 py-2 text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#94A3B8]/10 rounded-lg transition-colors block"
+              >
+                Dashboard
+              </Link>
+              <Link
+                to="/about"
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-left px-4 py-2 text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#94A3B8]/10 rounded-lg transition-colors block"
+              >
+                About
+              </Link>
+              <a
+                href="https://github.com/Hatonjan"
+                target="_blank"
+                className="flex sm:hidden px-4 py-2 text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#94A3B8]/10 rounded-lg transition-colors"
+              >
+                <figure>
+                  <img className="repo-icon" src="/src/assets/img/github-repo.png" alt="The icon of the Github repositories" />
+                </figure>
+                Analysis Repo
+              </a>
+            </div>
+          </div>
+        )}
       </div>
     </nav>
   );
