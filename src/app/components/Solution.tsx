@@ -96,7 +96,7 @@ export function Solution() {
             <div className="absolute inset-0 bg-gradient-to-t from-[#1A1F2B] to-transparent rounded-sm"></div>
             
             {/* Stats Overlay */}
-            <div className="absolute top-48 md:bottom-8 left-8 right-8">
+            <div className="absolute top-48 md:top-auto md:bottom-8 left-8 right-8">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-4">
 
                 <div className="bg-[#0B0E14]/80 backdrop-blur-sm p-2 md:p-4 rounded-sm border border-[#94A3B8]/20">
@@ -104,7 +104,7 @@ export function Solution() {
                   <div className="text-[#94A3B8] text-sm">Years of Data</div>
                 </div>
                 
-                <div className="bg-[#0B0E14]/80 backdrop-blur-sm p-4 p-2 md:p-4 rounded-sm border border-[#94A3B8]/20">
+                <div className="bg-[#0B0E14]/80 backdrop-blur-sm p-2 md:p-4 rounded-sm border border-[#94A3B8]/20">
                   <div className="text-[#00A3FF] text-3xl font-bold">475</div>
                   <div className="text-[#94A3B8] text-sm">Launches Analyzed</div>
                 </div>
