@@ -13,7 +13,7 @@ export function Hero() {
       {/* Background Image with Overlay */}
       <div  className="absolute inset-0 z-0">
         <img
-          src="/src/assets/img/hero.png"
+          src="/assets/img/hero.png"
           alt="Falcon-9 rocket landing"
           className="w-full h-full object-cover"
         />

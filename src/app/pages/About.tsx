@@ -33,7 +33,7 @@ export function About() {
                   </span>
                 </p>
                 <p className="text-[#94A3B8] leading-relaxed mb-4">
-                  By analyzing over ten years of launch telemetry, I’ve developed a framework 
+                  By analyzing over fifteen years of launch telemetry, I’ve developed a framework 
                   that reveals the true impact of the Falcon 9 program.
                 </p>
                 <p className="text-[#94A3B8] leading-relaxed mb-4">

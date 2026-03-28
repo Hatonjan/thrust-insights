@@ -20,7 +20,7 @@ export function Footer() {
           <div>
             <div className="flex flex-col items-center gap-2 mb-4">
               <figure>
-                <img className="logo" src="/src/assets/img/logo.png" alt="The logo of the website" />
+                <img className="logo" src="/assets/img/logo.png" alt="The logo of the website" />
               </figure>
               <span className="text-xl font-semibold text-[#F8FAFC]">Thrust Insights</span>
             </div>

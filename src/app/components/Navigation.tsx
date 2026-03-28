@@ -25,6 +25,15 @@ export function Navigation() {
       // Already on home page, scroll directly
       scrollToSection(sectionId);
     }
+  };
+
+  const scrollToTop = (path: string) => {
+    setMobileMenuOpen(false); // Close mobile menu
+    navigate(path);
+    // Scroll to top smoothly
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }, 100);
   }; 
 
   return (
@@ -34,10 +43,11 @@ export function Navigation() {
           {/* Logo */}
           <button onClick={() => handleSectionClick("hero")} className="flex items-center gap-2 hover:opacity-80 transition-opacity cursor-pointer flex-shrink-0 mr-auto">
             <figure>
-              <img 
-              className="logo" 
-              src="./src/assets/img/logo.png" 
-              alt="The logo of the website" />
+              <img  
+              src="/assets/img/logo.png" 
+              alt="The logo of the website" 
+              className="logo"
+            />
             </figure>
             <span className="text-xl font-semibold text-[#F8FAFC]">Thrust Insights</span>
           </button>
@@ -68,18 +78,18 @@ export function Navigation() {
             >
               Key Insights
             </button>
-            <Link
-              to="/dashboard"
+            <button
+              onClick={() => scrollToTop("/dashboard")}
               className="text-[#94A3B8] hover:text-[#F8FAFC] transition-colors"
             >
               Dashboard
-            </Link>
-            <Link
-              to="/about"
+            </button>
+            <button
+              onClick={() => scrollToTop("/about")}
               className="text-[#94A3B8] hover:text-[#F8FAFC] transition-colors"
             >
               About
-            </Link>
+            </button>
           </div>
 
           <div className="flex items-center gap-2 md:gap-4 ml-auto flex-shrink-0">
@@ -91,7 +101,7 @@ export function Navigation() {
               <figure>
                 <img 
                   className="repo-icon" 
-                  src="./src/assets/img/github-repo.png" 
+                  src="/assets/img/github-repo.png" 
                   alt="The icon of the Github repositories" 
                 />
               </figure>
@@ -141,27 +151,25 @@ export function Navigation() {
               >
                 Key Insights
               </button>
-              <Link
-                to="/dashboard"
-                onClick={() => setMobileMenuOpen(false)}
-                className="text-left px-4 py-2 text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#94A3B8]/10 rounded-lg transition-colors block"
+              <button
+                onClick={() => scrollToTop("/dashboard")}
+                className="text-left px-4 py-2 text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#94A3B8]/10 rounded-lg transition-colors block w-full"
               >
                 Dashboard
-              </Link>
-              <Link
-                to="/about"
-                onClick={() => setMobileMenuOpen(false)}
-                className="text-left px-4 py-2 text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#94A3B8]/10 rounded-lg transition-colors block"
+              </button>
+              <button
+                onClick={() => scrollToTop("/about")}
+                className="text-left px-4 py-2 text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#94A3B8]/10 rounded-lg transition-colors block w-full"
               >
                 About
-              </Link>
+              </button>
               <a
                 href="https://github.com/Hatonjan"
                 target="_blank"
                 className="flex sm:hidden px-4 py-2 text-[#94A3B8] hover:text-[#F8FAFC] hover:bg-[#94A3B8]/10 rounded-lg transition-colors"
               >
                 <figure>
-                  <img className="repo-icon" src="/src/assets/img/github-repo.png" alt="The icon of the Github repositories" />
+                  <img className="repo-icon" src="/assets/img/github-repo.png" alt="The icon of the Github repositories" />
                 </figure>
                 Analysis Repo
               </a>

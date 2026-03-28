@@ -15,7 +15,7 @@ export function Solution() {
           <div className="grid grid-cols-1 md:grid-cols-[2fr_0.125fr_2fr] gap-0 md:gap-4 mb-12  items-center">
             <figure>
               <img 
-              src="/src/assets/img/solutionR.png" 
+              src="/assets/img/solutionR.png" 
               alt="A falcon-9 rocket landing" 
               className="relative rounded-sm w-full h-56 md:h-96"
               />
@@ -25,7 +25,7 @@ export function Solution() {
             </h2>
             <figure>
               <img 
-              src="/src/assets/img/spacex-valuation.png" 
+              src="/assets/img/spacex-valuation.png" 
               alt="A graph showing the decrease in cost per kilogram thanks to the firs stage reusability" 
               className="relative rounded-sm w-full h-56 md:h-96" 
               />
@@ -89,7 +89,7 @@ export function Solution() {
           <div className="absolute inset-0 bg-gradient-to-t from-[#FF5C00]/20 via-transparent to-[#00A3FF]/20 blur-3xl"></div>
           <div className="relative">
             <img
-              src="/src/assets/img/launch.png"
+              src="/assets/img/launch.png"
               alt="Satellite in Orbit"
               className="w-full h-full rounded-sm shadow-2xl mb-44 md:mb-0 border border-[#94A3B8]/20"
             />

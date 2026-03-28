@@ -73,10 +73,10 @@ export function KeyInsights() {
           <div className="bg-[#1A1F2B] border border-[#94A3B8]/20 rounded-sm overflow-hidden group hover:border-[#FF5C00]/50 transition-all">
             <div 
               className="overflow-hidden p-2 cursor-pointer"
-              onClick={() => handleSetSelectedImage("/src/assets/img/payload-evolution.png")}
+              onClick={() => handleSetSelectedImage("/assets/img/payload-evolution.png")}
             >
               <img
-                src="/src/assets/img/payload-evolution.png"
+                src="/assets/img/payload-evolution.png"
                 alt="Satellite"
                 className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-500"
               />
@@ -111,10 +111,10 @@ export function KeyInsights() {
           <div className="bg-[#1A1F2B] border border-[#94A3B8]/20 rounded-sm overflow-hidden group hover:border-[#00A3FF]/50 transition-all">
             <div 
               className="overflow-hidden p-2 cursor-pointer"
-              onClick={() => handleSetSelectedImage("/src/assets/img/spacex-cost-per-kg.png")}
+              onClick={() => handleSetSelectedImage("/assets/img/spacex-cost-per-kg.png")}
             >
               <img
-                src="/src/assets/img/spacex-cost-per-kg.png"
+                src="/assets/img/spacex-cost-per-kg.png"
                 alt="Booster Landing"
                 className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-500"
               />
@@ -159,10 +159,10 @@ export function KeyInsights() {
           <div className="bg-[#1A1F2B] border border-[#94A3B8]/20 rounded-sm overflow-hidden group hover:border-[#10B981]/50 transition-all">
             <div 
               className="overflow-hidden p-2 cursor-pointer"
-              onClick={() => handleSetSelectedImage("/src/assets/img/success-rate.png")}
+              onClick={() => handleSetSelectedImage("/assets/img/success-rate.png")}
             >
               <img
-                src="/src/assets/img/success-rate.png"
+                src="/assets/img/success-rate.png"
                 alt="Falcon 9 Launch"
                 className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-500"
               />

@@ -9,7 +9,7 @@ export function Problem() {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-[#FF5C00]/20 to-[#00A3FF]/20 blur-3xl"></div>
             <img
-              src="/src/assets/img/problem.png"
+              src="/assets/img/problem.png"
               alt="Data Analysis"
               className="relative rounded-sm shadow-2xl border border-[#94A3B8]/20"
             />
